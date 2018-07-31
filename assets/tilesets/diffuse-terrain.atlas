@@ -1,0 +1,657 @@
+
+diffuse-terrain.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,Linear
+repeat: none
+basic_gems_0
+  rotate: false
+  xy: 2, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_24
+  rotate: false
+  xy: 2, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_255
+  rotate: false
+  xy: 70, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_66
+  rotate: false
+  xy: 2, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_90
+  rotate: false
+  xy: 70, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_overlay_0
+  rotate: false
+  xy: 138, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_overlay_24
+  rotate: false
+  xy: 2, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_overlay_255
+  rotate: false
+  xy: 70, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_overlay_66
+  rotate: false
+  xy: 138, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_gems_overlay_90
+  rotate: false
+  xy: 206, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_0
+  rotate: false
+  xy: 2, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_24
+  rotate: false
+  xy: 70, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_255
+  rotate: false
+  xy: 138, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_66
+  rotate: false
+  xy: 206, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_90
+  rotate: false
+  xy: 274, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_overlay_0
+  rotate: false
+  xy: 2, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_overlay_24
+  rotate: false
+  xy: 70, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_overlay_255
+  rotate: false
+  xy: 138, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_overlay_66
+  rotate: false
+  xy: 206, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+basic_ore_overlay_90
+  rotate: false
+  xy: 274, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+brickwall_0
+  rotate: false
+  xy: 342, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+brickwall_24
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+brickwall_255
+  rotate: false
+  xy: 70, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+brickwall_66
+  rotate: false
+  xy: 138, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+brickwall_90
+  rotate: false
+  xy: 206, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+brown_rock
+  rotate: false
+  xy: 274, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+brown_rock
+  rotate: false
+  xy: 342, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+brown_rock
+  rotate: false
+  xy: 410, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+brown_rock
+  rotate: false
+  xy: 70, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+brown_rock
+  rotate: false
+  xy: 138, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+clay_soil
+  rotate: false
+  xy: 206, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+clay_soil
+  rotate: false
+  xy: 274, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+clay_soil
+  rotate: false
+  xy: 342, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+clay_soil
+  rotate: false
+  xy: 410, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+clay_soil
+  rotate: false
+  xy: 478, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+cobblestone
+  rotate: false
+  xy: 138, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+cobblestone
+  rotate: false
+  xy: 206, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+cobblestone
+  rotate: false
+  xy: 274, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+cobblestone
+  rotate: false
+  xy: 342, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+cobblestone
+  rotate: false
+  xy: 410, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+dirt
+  rotate: false
+  xy: 478, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+dirt
+  rotate: false
+  xy: 546, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+dirt
+  rotate: false
+  xy: 206, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+dirt
+  rotate: false
+  xy: 274, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+dirt
+  rotate: false
+  xy: 342, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+grass
+  rotate: false
+  xy: 410, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+grass
+  rotate: false
+  xy: 478, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+grass
+  rotate: false
+  xy: 546, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+grass
+  rotate: false
+  xy: 614, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+grass
+  rotate: false
+  xy: 274, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+gravel
+  rotate: false
+  xy: 342, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+gravel
+  rotate: false
+  xy: 410, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+gravel
+  rotate: false
+  xy: 478, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+gravel
+  rotate: false
+  xy: 546, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+gravel
+  rotate: false
+  xy: 614, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+rough_stone
+  rotate: false
+  xy: 682, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+rough_stone
+  rotate: false
+  xy: 342, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+rough_stone
+  rotate: false
+  xy: 410, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+rough_stone
+  rotate: false
+  xy: 478, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+rough_stone
+  rotate: false
+  xy: 546, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+rough_stone_wall_0
+  rotate: false
+  xy: 614, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+rough_stone_wall_24
+  rotate: false
+  xy: 682, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+rough_stone_wall_255
+  rotate: false
+  xy: 750, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+rough_stone_wall_66
+  rotate: false
+  xy: 410, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+rough_stone_wall_90
+  rotate: false
+  xy: 478, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+soft
+  rotate: false
+  xy: 546, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+soft
+  rotate: false
+  xy: 614, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 24
+soft
+  rotate: false
+  xy: 682, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 66
+soft
+  rotate: false
+  xy: 750, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 90
+stone_block_0
+  rotate: false
+  xy: 818, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+stone_block_24
+  rotate: false
+  xy: 478, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+stone_block_255
+  rotate: false
+  xy: 546, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+stone_block_66
+  rotate: false
+  xy: 614, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+stone_block_90
+  rotate: false
+  xy: 682, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+stone_slab
+  rotate: false
+  xy: 750, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+stone_slab
+  rotate: false
+  xy: 818, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+stone_slab
+  rotate: false
+  xy: 886, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+stone_slab
+  rotate: false
+  xy: 546, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+stone_slab
+  rotate: false
+  xy: 614, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+straight
+  rotate: false
+  xy: 682, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+straight
+  rotate: false
+  xy: 750, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 24
+straight
+  rotate: false
+  xy: 818, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 66
+straight
+  rotate: false
+  xy: 886, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 90
+tilled_earth
+  rotate: false
+  xy: 954, 410
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+tilled_earth
+  rotate: false
+  xy: 614, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+tilled_earth
+  rotate: false
+  xy: 682, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+tilled_earth
+  rotate: false
+  xy: 750, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+tilled_earth
+  rotate: false
+  xy: 818, 206
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+wooden_plank_wall_0
+  rotate: false
+  xy: 886, 274
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+wooden_plank_wall_24
+  rotate: false
+  xy: 954, 342
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+wooden_plank_wall_255
+  rotate: false
+  xy: 682, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+wooden_plank_wall_66
+  rotate: false
+  xy: 750, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+wooden_plank_wall_90
+  rotate: false
+  xy: 818, 138
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0

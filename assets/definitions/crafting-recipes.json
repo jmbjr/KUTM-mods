@@ -1,0 +1,310 @@
+[
+  {
+    "recipeName": "Cut planks",
+    "i18nKey": "CRAFT.LOGS_INTO_PLANKS",
+    "craftingTypeName": "WOODCUTTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Logs",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Planks",
+        "quantity": 1
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Saw",
+    "materialTypesToCopyOver": ["WOOD"]
+  },
+
+  {
+    "recipeName": "Cut stone blocks",
+    "i18nKey": "CRAFT.STONE_INTO_BLOCKS",
+    "craftingTypeName": "STONEMASONRY",
+    "input": [
+      {
+        "itemTypeName": "Resource-Stone-Unrefined",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Stone-Block",
+        "quantity": 1
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Chisel",
+    "materialTypesToCopyOver": ["STONE"]
+  },
+  {
+    "recipeName": "Cut gems",
+    "i18nKey": "CRAFT.CUT_GEMS",
+    "craftingTypeName": "STONEMASONRY",
+    "input": [
+      {
+        "itemTypeName": "Resource-Gems-Unrefined",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Gem",
+        "quantity": 4
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Small-Hammer",
+    "materialTypesToCopyOver": ["GEM"]
+  },
+
+  {
+    "recipeName": "Craft barrel hoops",
+    "i18nKey": "CRAFT.BARREL_HOOPS",
+    "craftingTypeName": "BLACKSMITHING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "quantity": 2
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Product-Barrel-Hoops",
+        "quantity": 3
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Large-Hammer",
+    "materialTypesToCopyOver": ["METAL"]
+  },
+  {
+    "recipeName": "Craft cauldron",
+    "i18nKey": "CRAFT.CAULDRON",
+    "craftingTypeName": "BLACKSMITHING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "quantity": 8
+      },
+      {
+        "itemTypeName": "Resource-Planks",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Product-Cauldron",
+        "quantity": 1
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Large-Hammer",
+    "materialTypesToCopyOver": ["METAL", "WOOD"]
+  },
+
+  {
+    "recipeName": "Craft barrel staves",
+    "i18nKey": "CRAFT.BARREL_STAVES",
+    "craftingTypeName": "CARPENTRY",
+    "input": [
+      {
+        "itemTypeName": "Resource-Planks",
+        "quantity": 3
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Product-Barrel-Staves",
+        "quantity": 5
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Saw",
+    "materialTypesToCopyOver": ["WOOD"]
+  },
+  {
+    "recipeName": "Craft barrel",
+    "i18nKey": "CRAFT.BARREL",
+    "craftingTypeName": "CARPENTRY",
+    "input": [
+      {
+        "itemTypeName": "Product-Barrel-Staves",
+        "quantity": 1
+      },
+      {
+        "itemTypeName": "Product-Barrel-Hoops",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Product-Barrel",
+        "quantity": 1
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Saw",
+    "materialTypesToCopyOver": ["WOOD", "METAL"]
+  },
+  {
+    "recipeName": "Craft bucket",
+    "i18nKey": "CRAFT.BUCKET",
+    "craftingTypeName": "CARPENTRY",
+    "input": [
+      {
+        "itemTypeName": "Product-Barrel-Staves",
+        "quantity": 1
+      },
+      {
+        "itemTypeName": "Product-Barrel-Hoops",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Product-Bucket",
+        "quantity": 1
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Saw",
+    "materialTypesToCopyOver": ["WOOD", "METAL"]
+  },
+
+  {
+    "recipeName": "Smelt iron (placeholder)",
+    "i18nKey": "CRAFT.SMELTING",
+    "craftingTypeName": "SMELTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Ore-Unrefined",
+        "materialName": "Hematite",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "materialName": "Iron",
+        "quantity": 2
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Tongs"
+  },
+  {
+    "recipeName": "Smelt tin (placeholder)",
+    "i18nKey": "CRAFT.SMELTING",
+    "craftingTypeName": "SMELTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Ore-Unrefined",
+        "materialName": "Cassiterite",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "materialName": "Tin",
+        "quantity": 2
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Tongs"
+  },
+  {
+    "recipeName": "Smelt copper from native (placeholder)",
+    "i18nKey": "CRAFT.SMELTING",
+    "craftingTypeName": "SMELTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Ore-Unrefined",
+        "materialName": "Native Copper",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "materialName": "Copper",
+        "quantity": 2
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Tongs"
+  },
+  {
+    "recipeName": "Smelt copper from malachite (placeholder)",
+    "i18nKey": "CRAFT.SMELTING",
+    "craftingTypeName": "SMELTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Ore-Unrefined",
+        "materialName": "Malachite",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "materialName": "Copper",
+        "quantity": 2
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Tongs"
+  },
+  {
+    "recipeName": "Smelt gold (placeholder)",
+    "i18nKey": "CRAFT.SMELTING",
+    "craftingTypeName": "SMELTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Ore-Unrefined",
+        "materialName": "Native Gold",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "materialName": "Gold",
+        "quantity": 2
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Tongs"
+  },
+  {
+    "recipeName": "Smelt silver from Galena (placeholder)",
+    "i18nKey": "CRAFT.SMELTING",
+    "craftingTypeName": "SMELTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Ore-Unrefined",
+        "materialName": "Galena",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "materialName": "Silver",
+        "quantity": 2
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Tongs"
+  },
+  {
+    "recipeName": "Smelt silver from native (placeholder)",
+    "i18nKey": "CRAFT.SMELTING",
+    "craftingTypeName": "SMELTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Ore-Unrefined",
+        "materialName": "Native Silver",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Metal-Ingot",
+        "materialName": "Silver",
+        "quantity": 2
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Tongs"
+  }
+]

@@ -1,0 +1,3026 @@
+[ {
+  "uniqueName" : "Planted-Seeds",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Wheat", "Barley", "Tomato", "Potato", "Carrot", "Maize" ],
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_planted_seeds.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Hops-Base",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Hops" ],
+  "growthStages" : [ 0, 1, 2, 3, 4, 5, 6 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_hops_base.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 8.5,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : -4.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Hops-Final-Cones",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Hops" ],
+  "growthStages" : [ 5, 6 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_hops_final_cones.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Hops-Final-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Hops" ],
+  "growthStages" : [ 5, 6 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_hops_final_leaves.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Hops-Large-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Hops" ],
+  "growthStages" : [ 3, 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_hops_large_leaves.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Hops-Medium-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Hops" ],
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_hops_med_leaves.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Hops-Small-Cones",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Hops" ],
+  "growthStages" : [ 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_hops_small_cones.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Hops-Small-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Hops" ],
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_hops_small_leaves.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Maize-Large",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Maize" ],
+  "growthStages" : [ 5, 6, 7 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_maize_large.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 21.5,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Maize-Small-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Maize" ],
+  "growthStages" : [ 5, 6 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_maize_large_fruit.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 8.5,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Maize-Medium",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Maize" ],
+  "growthStages" : [ 3, 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_maize_medium.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 19.5,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Maize-Shoots",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Maize" ],
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_maize_shoots.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 3.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Maize-Small",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Maize" ],
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_maize_small.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 12.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Maize-Small-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Maize" ],
+  "growthStages" : [ 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_maize_small_fruit.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 6.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Large-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 5, 6, 7 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_large_branches.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Large-Flowers",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 5, 6 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_large_flowers.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 19.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Large-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 5, 6, 7 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_large_leaves.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 16.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : -8.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Medium-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 3, 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_medium_branches.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : -3.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Medium-Flowers",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_medium_flowers.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Medium-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 3, 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_medium_leaves.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 16.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Shoots",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_shoots.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : -15.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Small-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_small_branches.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : -8.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Potato-Small",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Potato", "Carrot" ],
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_potato_small_leaves.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 3.5,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tomato-Large-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Tomato" ],
+  "growthStages" : [ 5, 6, 7 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_tomato_large_branches.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 16.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tomato-Large-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Tomato" ],
+  "growthStages" : [ 5, 6 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_tomato_large_fruit.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tomato-Medium-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Tomato" ],
+  "growthStages" : [ 3, 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_tomato_medium_branches.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 16.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tomato-Medium-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Tomato" ],
+  "growthStages" : [ 4 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_tomato_medium_fruit.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 1.0,
+        "y" : 1.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tomato-Shoots",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Tomato" ],
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_tomato_shoots.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : -6.5,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tomato-Small",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Tomato" ],
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_tomato_small.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 5.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Wheat-Mid",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Wheat", "Barley" ],
+  "growthStages" : [ 3, 4, 5 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_wheat_late.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 16.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Wheat-Mid",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Wheat", "Barley" ],
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_wheat_mid.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 16.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Wheat-Shoots",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Wheat", "Barley" ],
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "crop_wheat_shoots.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 16.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B1-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Loquat bush", "Thimbleberry bush", "Tamarillo bush", "Shrub" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_01_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B1-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Loquat bush" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fruit_01_f.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B1-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Loquat bush", "Thimbleberry bush", "Tamarillo bush", "Shrub" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_01_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B2-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Thimbleberry bush", "Tamarillo bush", "Dragonfruit tree", "Shrub" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_02_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B2-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Thimbleberry bush" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fruit_02_f.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B2-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Thimbleberry bush", "Tamarillo bush", "Dragonfruit tree", "Shrub" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_02_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B3-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Tamarillo bush", "Dragonfruit tree", "Breadfruit tree", "Shrub" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_03_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B3-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Tamarillo bush" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fruit_03_f.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B3-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Tamarillo bush", "Dragonfruit tree", "Breadfruit tree", "Shrub" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_03_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B4-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Loquat bush", "Dragonfruit tree", "Breadfruit tree" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_04_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B4-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Dragonfruit tree" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fruit_04_f.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B4-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Loquat bush", "Dragonfruit tree", "Breadfruit tree" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_04_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B5-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : null,
+  "speciesNames" : [ "Loquat bush", "Thimbleberry bush", "Breadfruit tree" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_05_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B5-Fruit",
+  "type" : "PLANT_FRUIT",
+  "speciesName" : null,
+  "speciesNames" : [ "Breadfruit tree" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fruit_05_f.png",
+      "coloringLayer" : "FRUIT_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : -10.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Bush-B5-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : null,
+  "speciesNames" : [ "Loquat bush", "Thimbleberry bush", "Breadfruit tree" ],
+  "growthStages" : [ ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "shrub_05_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_FRUIT",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 0.0,
+          "zero" : true,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Beech-Size1-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Beech",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "beech-0-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 8.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -1.5,
+          "y" : 24.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Beech-Size1-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Beech",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "beech-0-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Beech-Size2-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Beech",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "beech-1-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 40.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -6.5,
+          "y" : 42.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Beech-Size2-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Beech",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "beech-1-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Beech-Size3-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Beech",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "beech-2-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -5.0,
+        "y" : 100.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -2.0,
+          "y" : 54.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Beech-Size3-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Beech",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "beech-2-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Beech-Size4-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Beech",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "beech-3-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 0.8,
+      "offsetPixels" : {
+        "x" : 6.0,
+        "y" : 104.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -5.0,
+          "y" : 78.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Beech-Size4-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Beech",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "beech-3-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 0.8,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Birch-Size1-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Birch",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "birch_01_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 2.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 14.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Birch-Size1-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Birch",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "birch_01_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Birch-Size2-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Birch",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "birch_02_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -7.0,
+        "y" : 37.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -2.0,
+          "y" : 28.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Birch-Size2-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Birch",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "birch_02_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Birch-Size3-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Birch",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "birch_03_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 4.0,
+        "y" : 80.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 30.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Birch-Size3-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Birch",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "birch_03_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Birch-Size4-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Birch",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "birch_04_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 3.0,
+        "y" : 124.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -1.0,
+          "y" : 36.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Birch-Size4-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Birch",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "birch_04_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Fir-Size1-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Fir",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fir-0-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -1.0,
+        "y" : -2.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 2.0,
+          "y" : 5.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Fir-Size1-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Fir",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fir-0-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Fir-Size2-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Fir",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fir-1-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 1.0,
+        "y" : 36.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -2.0,
+          "y" : 18.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Fir-Size2-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Fir",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fir-1-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Fir-Size3-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Fir",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fir-2-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -5.0,
+        "y" : 70.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -3.5,
+          "y" : 26.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Fir-Size3-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Fir",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fir-2-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Fir-Size4-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Fir",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fir-3-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 140.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 2.0,
+          "y" : 38.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Fir-Size4-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Fir",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "fir-3-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Maple-Size1-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Maple",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "maple_01_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 2.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 14.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Maple-Size1-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Maple",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "maple_01_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Maple-Size2-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Maple",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "maple_02_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -2.0,
+        "y" : 37.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -2.0,
+          "y" : 13.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Maple-Size2-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Maple",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "maple_02_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Maple-Size3-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Maple",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "maple_03_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 80.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -1.0,
+          "y" : 16.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Maple-Size3-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Maple",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "maple_03_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Maple-Size4-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Maple",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "maple_04_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 3.0,
+        "y" : 115.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 16.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Maple-Size4-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Maple",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "maple_04_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Oak-Size1-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Oak",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "oak-0-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 8.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 2.0,
+          "y" : 10.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Oak-Size1-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Oak",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "oak-0-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Oak-Size2-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Oak",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "oak-1-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -2.0,
+        "y" : 44.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -0.5,
+          "y" : 22.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Oak-Size2-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Oak",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "oak-1-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Oak-Size3-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Oak",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "oak-2-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 1.0,
+        "y" : 80.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -2.0,
+          "y" : 36.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Oak-Size3-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Oak",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "oak-2-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Oak-Size4-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Oak",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "oak-3-t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -6.0,
+        "y" : 138.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 1.0,
+          "y" : 70.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Oak-Size4-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Oak",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "oak-3-l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Pine-Size1-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Pine",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "pine_01_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 2.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 0.0,
+          "y" : 14.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Pine-Size1-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Pine",
+  "speciesNames" : null,
+  "growthStages" : [ 0 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "pine_01_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Pine-Size2-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Pine",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "pine_02_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -4.0,
+        "y" : 37.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -2.0,
+          "y" : 13.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Pine-Size2-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Pine",
+  "speciesNames" : null,
+  "growthStages" : [ 1 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "pine_02_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Pine-Size3-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Pine",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "pine_03_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 3.0,
+        "y" : 80.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -1.0,
+          "y" : 30.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Pine-Size3-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Pine",
+  "speciesNames" : null,
+  "growthStages" : [ 2 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "pine_03_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Pine-Size4-Branches",
+  "type" : "PLANT_BRANCHES",
+  "speciesName" : "Pine",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "pine_04_t.png",
+      "coloringLayer" : "BRANCHES_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 115.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ {
+        "type" : "PLANT_LEAVES",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 1.0,
+          "y" : 27.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : null
+      } ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
+  "uniqueName" : "Tree-Pine-Size4-Leaves",
+  "type" : "PLANT_LEAVES",
+  "speciesName" : "Pine",
+  "speciesNames" : null,
+  "growthStages" : [ 3 ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "pine_04_l.png",
+      "coloringLayer" : "LEAF_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+} ]

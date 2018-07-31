@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CHEF",
+    "i18nKey": "PROFESSION.CHEF"
+  },
+  {
+    "name": "BLACKSMITH",
+    "i18nKey": "PROFESSION.BLACKSMITH"
+  },
+  {
+    "name": "CARPENTER",
+    "i18nKey": "PROFESSION.CARPENTER"
+  },
+  {
+    "name": "FARMER",
+    "i18nKey": "PROFESSION.FARMER"
+  },
+  {
+    "name": "FISHER",
+    "i18nKey": "PROFESSION.FISHER"
+  },
+  {
+    "name": "HUNTER",
+    "i18nKey": "PROFESSION.HUNTER"
+  },
+  {
+    "name": "LUMBERJACK",
+    "i18nKey": "PROFESSION.WOODCUTTER"
+  },
+  {
+    "name": "MINER",
+    "i18nKey": "PROFESSION.MINER"
+  },
+  {
+    "name": "STONEMASON",
+    "i18nKey": "PROFESSION.STONEMASON"
+  },
+  {
+    "name": "VILLAGER",
+    "i18nKey": "PROFESSION.VILLAGER"
+  }
+]

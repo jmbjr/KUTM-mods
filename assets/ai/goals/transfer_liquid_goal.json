@@ -1,0 +1,25 @@
+{
+  "name": "Transfer liquid goal",
+  "i18nDescription": "GOAL.TRANSFER_LIQUID.DESCRIPTION",
+  "selectors": [],
+  "initialActions": ["GoToLocation", "PickUpItem"],
+  "actionRelationships": {
+    "GoToLocation": {
+      "fail": ["UnassignJob", "CancelItemAllocation"]
+    },
+    "PickUpItem": {
+      "pass": ["GoToLocation", "FillContainer"],
+      "fail": ["UnassignJob", "CancelItemAllocation"]
+    },
+    "FillContainer": {
+      "pass": ["CancelItemAllocation", "GoToLocation", "FaceTowardsLocation", "WorkOnJob"],
+      "fail": ["CancelItemAllocation", "UnassignJob"]
+    },
+    "WorkOnJob": {
+      "fail": ["GoToLocation"]
+    },
+    "FaceTowardsLocation": {},
+    "CancelItemAllocation": {},
+    "UnassignJob": {}
+  }
+}

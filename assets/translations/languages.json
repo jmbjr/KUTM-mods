@@ -1,0 +1,113 @@
+[
+  {
+    "label": "English",
+    "labelEn": "English",
+    "code": "en-gb",
+    "icon": "United-Kingdom",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Deutsch",
+    "labelEn": "German",
+    "code": "de",
+    "icon": "Germany",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Français",
+    "labelEn": "French",
+    "code": "fr",
+    "icon": "France",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Italiano",
+    "labelEn": "Italian",
+    "code": "it",
+    "icon": "Italy",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Español",
+    "labelEn": "Spanish",
+    "code": "es",
+    "icon": "Spain",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Português",
+    "labelEn": "Portuguese",
+    "code": "pt",
+    "icon": "Portugal",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Português Brasileiro",
+    "labelEn": "Portuguese BR",
+    "code": "pt-br",
+    "icon": "Brazil",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Polski",
+    "labelEn": "Polish",
+    "code": "pl",
+    "icon": "Poland",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Pусский",
+    "labelEn": "Russian",
+    "code": "ru",
+    "icon": "Russia",
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Dansk",
+    "labelEn": "Danish",
+    "code": "da",
+    "icon": "Denmark",
+    "enabled": false,
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Nederlands",
+    "labelEn": "Dutch",
+    "code": "nl",
+    "icon": "Netherlands",
+    "enabled": false,
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Svenska",
+    "labelEn": "Swedish",
+    "code": "sv",
+    "icon": "Sweden",
+    "enabled": false,
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Norsk Bokmål",
+    "labelEn": "Norwegian",
+    "code": "no",
+    "icon": "Norway",
+    "enabled": false,
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Magyar",
+    "labelEn": "Hungarian",
+    "code": "hu",
+    "icon": "Hungary",
+    "enabled": false,
+    "filename": "languages.csv"
+  },
+  {
+    "label": "Suomi",
+    "labelEn": "Finnish",
+    "code": "fi",
+    "icon": "Finland",
+    "enabled": false,
+    "filename": "languages.csv"
+  }
+]

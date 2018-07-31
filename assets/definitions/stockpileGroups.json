@@ -1,0 +1,13 @@
+[ {
+  "name" : "Resources",
+  "stockpileGroupId" : 87
+}, {
+  "name" : "Tools",
+  "stockpileGroupId" : 88
+}, {
+  "name" : "Granary",
+  "stockpileGroupId" : 89
+}, {
+  "name" : "Pantry",
+  "stockpileGroupId" : 90
+} ]

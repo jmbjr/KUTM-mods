@@ -1,0 +1,7 @@
+[ {
+  "roomEdgeTypeName" : "soft",
+  "roomEdgeTypeId" : 108
+}, {
+  "roomEdgeTypeName" : "straight",
+  "roomEdgeTypeId" : 109
+} ]

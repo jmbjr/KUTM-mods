@@ -1,0 +1,29 @@
+{
+  "Resource-Metal-Ingot": {
+    "fixedAmount": 400
+  },
+  "Resource-Planks": {
+    "fixedAmount": 120
+  },
+  "Resource-Stone-Block": {
+    "fixedAmount": 240
+  },
+  "Resource-Gem": {
+    "fixedAmount": 200
+  },
+  "Product-Barrel-Hoops": {
+    "fixedAmount": 12
+  },
+  "Product-Barrel-Staves": {
+    "fixedAmount": 15
+  },
+  "Product-Barrel": {
+    "fixedAmount": 5
+  },
+  "Product-Bucket": {
+    "fixedAmount": 6
+  },
+  "Product-Cauldron": {
+    "perSettler": 0.1
+  }
+}

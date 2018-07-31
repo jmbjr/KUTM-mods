@@ -1,0 +1,125 @@
+[
+  {
+    "roomName": "STOCKPILE_RESOURCES",
+    "i18nKey": "STOCKPILE.RESOURCES",
+    "colorCode": "#F2ED5A",
+    "iconName": "brick-pile",
+    "tags": {
+      "STOCKPILE": ["Resources"]
+    },
+    "furnitureNames": []
+  },
+  {
+    "roomName": "STOCKPILE_TOOLS",
+    "i18nKey": "STOCKPILE.TOOLS",
+    "colorCode": "#c6c6c6",
+    "iconName": "stone-crafting",
+    "tags": {
+      "STOCKPILE": ["Tools"]
+    },
+    "furnitureNames": []
+  },
+  {
+    "roomName": "STOCKPILE_GRANARY",
+    "i18nKey": "STOCKPILE.GRANARY",
+    "colorCode": "#eda948",
+    "iconName": "grain",
+    "tags": {
+      "STOCKPILE": ["Granary"]
+    },
+    "furnitureNames": []
+  },
+  {
+    "roomName": "STOCKPILE_PANTRY",
+    "i18nKey": "STOCKPILE.PANTRY",
+    "colorCode": "#7cb167",
+    "iconName": "fruit-bowl",
+    "tags": {
+      "STOCKPILE": ["Pantry"]
+    },
+    "furnitureNames": []
+  },
+
+  {
+    "roomName": "FARM_PLOT",
+    "i18nKey": "ROOMS.FARM",
+    "colorCode": "#47301f",
+    "iconName": "wheat",
+    "requiredFloorMaterialType": "EARTH",
+    "tags": {
+      "FARM_PLOT": ["tilled_earth", "Tilled earth"]
+    },
+    "furnitureNames": []
+  },
+  {
+    "roomName": "SAWMILL",
+    "i18nKey": "ROOMS.SAWMILL",
+    "colorCode": "#f19144",
+    "iconName": "log",
+    "furnitureNames": [
+      "WOODCUTTERS_BENCH"
+    ]
+  },
+  {
+    "roomName": "CARPENTRY_WORKSHOP",
+    "i18nKey": "ROOMS.CARPENTRY_WORKSHOP",
+    "colorCode": "#be926e",
+    "iconName": "hammer-nails",
+    "furnitureNames": [
+      "CARPENTRY_WORKBENCH"
+    ]
+  },
+  {
+    "roomName": "MASONRY_WORKSHOP",
+    "i18nKey": "ROOMS.MASONRY_WORKSHOP",
+    "colorCode": "#c9c9c9",
+    "iconName": "stone-pile",
+    "furnitureNames": [
+      "STONEMASON_WORKBENCH"
+    ]
+  },
+  {
+    "roomName": "PLACEHOLDER_METALWORKS",
+    "i18nKey": "ROOMS.PLACEHOLDER_METALWORKS",
+    "colorCode": "#8e8e8e",
+    "iconName": "black-bar",
+    "furnitureNames": [
+      "PLACEHOLDER_SMELTER",
+      "PLACEHOLDER_SMITHY"
+    ]
+  },
+  {
+    "roomName": "BEDROOM",
+    "i18nKey": "ROOMS.BEDROOM",
+    "colorCode": "#c17200",
+    "iconName": "bed",
+    "furnitureNames": [
+      "SINGLE_BED"
+    ]
+  },
+  {
+    "roomName": "KITCHEN",
+    "i18nKey": "ROOMS.KITCHEN",
+    "colorCode": "#1d8898",
+    "iconName": "chef-toque",
+    "tags": {
+      "KITCHEN_BEHAVIOUR": []
+    },
+    "furnitureNames": [
+      "WATER_BARREL",
+      "KITCHEN_WORKTOP",
+      "CHEFS_CAULDRON"
+    ]
+  },
+  {
+    "roomName": "FEASTING_HALL",
+    "i18nKey": "ROOMS.FEASTING_HALL",
+    "colorCode": "#a42f1f",
+    "iconName": "knife-fork",
+    "furnitureNames": [
+      "FEASTING_TABLE",
+      "FEASTING_CHAIR",
+      "FEASTING_CAULDRON"
+    ]
+  }
+]
