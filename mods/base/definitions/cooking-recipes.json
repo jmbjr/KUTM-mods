@@ -1,0 +1,39 @@
+[
+  {
+    "recipeName": "Create soup",
+    "inputItemOptions": [
+      {
+        "itemTypeName": "Ingredient-Vegetable-Crate",
+        "materialName": "Carrot"
+      },
+      {
+        "itemTypeName": "Ingredient-Vegetable-Sack",
+        "materialName": "Corn"
+      },
+      {
+        "itemTypeName": "Ingredient-Vegetable-Sack",
+        "materialName": "Potato"
+      },
+      {
+        "itemTypeName": "Ingredient-Vegetable-Crate",
+        "materialName": "Tomato"
+      }
+    ],
+    "inputItemQuantity": 3,
+    "inputLiquidOptions": [
+      {
+        "itemTypeName": "Product-Bucket",
+        "materialName": "Water"
+      }
+    ],
+    "inputLiquidQuantity": 4,
+
+    "cookedInFurnitureName": "CHEFS_CAULDRON",
+
+    "outputDescriptionI18nKey": "COOKING.SOUP.DESCRIPTION",
+    "outputMaterialType": "LIQUID",
+    "outputQuantity": 9,
+    "outputProcess": "COMBINE_ITEM_MATERIALS"
+
+  }
+]

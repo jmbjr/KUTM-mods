@@ -1,0 +1,137 @@
+[
+  {
+    "materialName": "Amethyst",
+    "materialType": "GEM",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#9164AB"
+  },
+  {
+    "materialName": "Citrine",
+    "materialType": "GEM",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#FF8200"
+  },
+  {
+    "materialName": "Garnet",
+    "materialType": "GEM",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#953640"
+  },
+  {
+    "materialName": "Moonstone",
+    "materialType": "GEM",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#D6D1C9"
+  },
+  {
+    "materialName": "Diamond",
+    "materialType": "GEM",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#b9f2ff"
+  },
+  {
+    "materialName": "Tanzanite",
+    "materialType": "GEM",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#440099"
+  },
+  {
+    "materialName": "Tourmaline",
+    "materialType": "GEM",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#FF0080"
+  },
+  {
+    "materialName": "Topaz",
+    "materialType": "GEM",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#D08344"
+  },
+  {
+    "materialName": "Jasper",
+    "materialType": "GEM",
+    "rockGroup": "Sedimentary",
+    "prevalence": 1,
+    "colorCode": "#D73B3E"
+  },
+  {
+    "materialName": "Opal",
+    "materialType": "GEM",
+    "rockGroup": "Sedimentary",
+    "prevalence": 1,
+    "colorCode": "#C6E2DA"
+  },
+  {
+    "materialName": "Rock Crystal",
+    "materialType": "GEM",
+    "rockGroup": "Sedimentary",
+    "prevalence": 1,
+    "colorCode": "#ffffff"
+  },
+
+
+  {
+    "materialName": "Emerald",
+    "materialType": "GEM",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#009473"
+  },
+  {
+    "materialName": "Morganite",
+    "materialType": "GEM",
+    "rockGroup": "Metamorphic",
+    "prevalence": 0.2,
+    "colorCode": "#DFCDC6"
+  },
+  {
+    "materialName": "Aquamarine",
+    "materialType": "GEM",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#34DDDD"
+  },
+  {
+    "materialName": "Jade",
+    "materialType": "GEM",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#00a86b"
+  },
+  {
+    "materialName": "Turquoise",
+    "materialType": "GEM",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#45B5AA"
+  },
+  {
+    "materialName": "Spinel",
+    "materialType": "GEM",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#df86a7"
+  },
+  {
+    "materialName": "Ruby",
+    "materialType": "GEM",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#9B111E"
+  },
+  {
+    "materialName": "Sapphire",
+    "materialType": "GEM",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#002060"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "name": "Work on job goal",
+  "i18nDescription": "GOAL.WORK_ON_JOB.DESCRIPTION",
+  "selectors": [
+    {
+      "conditions": [
+        {
+          "type": "NEED",
+          "need": "FOOD",
+          "operator": "GREATER_THAN_OR_EQUAL_TO",
+          "value": 15
+        },
+        {
+          "type": "NEED",
+          "need": "DRINK",
+          "operator": "GREATER_THAN_OR_EQUAL_TO",
+          "value": 15
+        },
+        {
+          "type": "NEED",
+          "need": "SLEEP",
+          "operator": "GREATER_THAN_OR_EQUAL_TO",
+          "value": 15
+        }
+      ],
+      "priority": "LOWEST",
+      "scheduleCategory": "ANY"
+    }
+  ],
+  "initialActions": ["SelectJob"],
+  "actionRelationships": {
+    "SelectJob": {
+      "pass": ["EquipItemForJob", "FaceTowardsLocation", "WorkOnJob"]
+    },
+    "EquipItemForJob": {
+      "fail": ["UnassignJob"]
+    },
+    "WorkOnJob": {
+      "pass": ["UnequipItemForJob", "RequeueThisGoal"],
+      "fail": ["GoToLocation"]
+    },
+    "GoToLocation": {
+      "pass": ["FaceTowardsLocation", "WorkOnJob"],
+      "fail": ["UnequipItemForJob", "UnassignJob"]
+    },
+    "UnequipItemForJob": {},
+    "UnassignJob": {},
+    "FaceTowardsLocation": {},
+    "RequeueThisGoal": {}
+  }
+}

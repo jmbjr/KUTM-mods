@@ -1,0 +1,18 @@
+{
+  "uniqueName": "Ingredient-Seeds-Bag-Rope",
+  "type": "ABOVE_LAYER_1",
+  "itemTypeName": "Ingredient-Seeds",
+  "itemPlacements": ["ON_GROUND"],
+  "minQuantity": 1,
+  "maxQuantity": 50,
+  "spriteDescriptors": {
+    "DOWN": {
+      "filename": "Bag-Rope.png",
+      "offsetPixels": {
+        "x": 0,
+        "y": 0
+      },
+      "coloringLayer": "ROPE_COLOR"
+    }
+  }
+}

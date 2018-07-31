@@ -1,0 +1,9 @@
+{
+  "classPath": [
+    "undermount-desktop.jar"
+  ],
+  "mainClass": "technology.rocketjump.undermount.launcher.DesktopLauncher",
+  "vmArgs": [
+    "-Xms1024m"
+  ]
+}

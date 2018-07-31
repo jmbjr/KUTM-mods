@@ -1,0 +1,11 @@
+[{
+  "itemTypeName": "Resource-Stone-Block",
+  "itemGroup": "RESOURCE",
+  "materialTypes": ["STONE"],
+  "primaryMaterialType": "STONE",
+  "maxStackSize": 12,
+  "maxHauledAtOnce": 1,
+  "stockpileGroupName": "Resources",
+  "impedesMovement": true,
+  "blocksMovement": false
+}]

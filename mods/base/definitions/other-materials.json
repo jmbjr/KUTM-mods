@@ -1,0 +1,62 @@
+[
+  {
+    "materialName": "Iron",
+    "materialType": "METAL",
+    "colorCode": "#a8b5c1"
+  },
+  {
+    "materialName": "Steel",
+    "materialType": "METAL",
+    "colorCode": "#DDDDDE"
+  },
+  {
+    "materialName": "Tin",
+    "materialType": "METAL",
+    "colorCode": "#c9c6b9"
+  },
+  {
+    "materialName": "Bronze",
+    "materialType": "METAL",
+    "colorCode": "#9d6d34"
+  },
+  {
+    "materialName": "Copper",
+    "materialType": "METAL",
+    "colorCode": "#c67852"
+  },
+  {
+    "materialName": "Gold",
+    "materialType": "METAL",
+    "colorCode": "#feed76"
+  },
+  {
+    "materialName": "Silver",
+    "materialType": "METAL",
+    "colorCode": "#f3f3f3"
+  },
+  {
+    "materialName": "brick",
+    "materialType": "OTHER"
+  },
+  {
+    "materialName": "Grass",
+    "materialType": "EARTH"
+  },
+  {
+    "materialName": "Tilled earth",
+    "materialType": "EARTH"
+  },
+  {
+    "materialName": "clay_soil",
+    "materialType": "OTHER"
+  },
+  {
+    "materialName": "Plant",
+    "materialType": "OTHER"
+  },
+  {
+    "materialName": "Water",
+    "materialType": "LIQUID",
+    "colorCode": "#26e1ed"
+  }
+]

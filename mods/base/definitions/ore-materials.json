@@ -1,0 +1,50 @@
+[
+  {
+    "materialName": "Hematite",
+    "materialType": "ORE",
+    "prevalence": 1.5,
+    "colorCode": "#991E1E"
+  },
+  {
+    "materialName": "Bituminous Coal",
+    "materialType": "ORE",
+    "prevalence": 2.2,
+    "colorCode": "#3E3E3E"
+  },
+  {
+    "materialName": "Native Gold",
+    "materialType": "ORE",
+    "prevalence": 0.3,
+    "colorCode": "#FFFF1C"
+  },
+  {
+    "materialName": "Cassiterite",
+    "materialType": "ORE",
+    "prevalence": 0.3,
+    "colorCode": "#CCE6FF"
+  },
+  {
+    "materialName": "Native Copper",
+    "materialType": "ORE",
+    "prevalence": 0.6,
+    "colorCode": "#FF8C1A"
+  },
+  {
+    "materialName": "Galena",
+    "materialType": "ORE",
+    "prevalence": 0.4,
+    "colorCode": "#CCCCCC"
+  },
+  {
+    "materialName": "Native Silver",
+    "materialType": "ORE",
+    "prevalence": 0.4,
+    "colorCode": "#EAEAEA"
+  },
+  {
+    "materialName": "Malachite",
+    "materialType": "ORE",
+    "prevalence": 0.6,
+    "colorCode": "#8CC87E"
+  }
+]

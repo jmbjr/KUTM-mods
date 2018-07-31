@@ -1,0 +1,11 @@
+{
+  "itemTypeName": "Ingredient-Seeds",
+  "itemGroup": "RESOURCE",
+  "materialTypes": ["SEED", "ROPE"],
+  "primaryMaterialType": "SEED",
+  "stockpileGroupName": "Granary",
+  "hoursInInventoryUntilUnused": 3,
+  "maxStackSize": 50,
+  "maxHauledAtOnce": 50,
+  "equippedWhileWorkingOnJob": false
+}

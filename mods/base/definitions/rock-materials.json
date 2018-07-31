@@ -1,0 +1,68 @@
+[
+  {
+    "materialName": "Sandstone",
+    "materialType": "STONE",
+    "rockGroup": "Sedimentary",
+    "prevalence": 1,
+    "colorCode": "#F0C297",
+    "oreNames": ["Hematite", "Bituminous Coal", "Cassiterite"]
+  },
+  {
+    "materialName": "Limestone",
+    "materialType": "STONE",
+    "rockGroup": "Sedimentary",
+    "prevalence": 2,
+    "colorCode": "#FFFFE6",
+    "isFluxMaterial": true,
+    "oreNames": ["Hematite", "Bituminous Coal", "Cassiterite"]
+  },
+  {
+    "materialName": "Dolostone",
+    "materialType": "STONE",
+    "rockGroup": "Sedimentary",
+    "prevalence": 1,
+    "colorCode": "#F3D8D8",
+    "isFluxMaterial": true,
+    "oreNames": ["Hematite", "Bituminous Coal", "Cassiterite"]
+  },
+  {
+    "materialName": "Shale",
+    "materialType": "STONE",
+    "rockGroup": "Sedimentary",
+    "prevalence": 1,
+    "colorCode": "#8A6565",
+    "oreNames": ["Hematite", "Bituminous Coal", "Cassiterite"]
+  },
+  {
+    "materialName": "Slate",
+    "materialType": "STONE",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#8C8C8C",
+    "oreNames": ["Malachite", "Galena"]
+  },
+  {
+    "materialName": "Marble",
+    "materialType": "STONE",
+    "rockGroup": "Metamorphic",
+    "prevalence": 1,
+    "colorCode": "#FAFAFA",
+    "oreNames": ["Malachite", "Galena"]
+  },
+  {
+    "materialName": "Granite",
+    "materialType": "STONE",
+    "rockGroup": "Igneous",
+    "prevalence": 4,
+    "colorCode": "#4D4D4D",
+    "oreNames": ["Native Gold", "Hematite", "Native Copper", "Native Silver"]
+  },
+  {
+    "materialName": "Basalt",
+    "materialType": "STONE",
+    "rockGroup": "Igneous",
+    "prevalence": 1,
+    "colorCode": "#8C8C8C",
+    "oreNames": ["Native Gold", "Hematite", "Native Copper"]
+  }
+]

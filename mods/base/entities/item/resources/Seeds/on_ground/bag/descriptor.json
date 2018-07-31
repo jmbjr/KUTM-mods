@@ -1,0 +1,27 @@
+{
+  "uniqueName": "Ingredient-Seeds-Bag",
+  "type": "ITEM_BASE_LAYER",
+  "itemTypeName": "Ingredient-Seeds",
+  "itemPlacements": ["ON_GROUND"],
+  "minQuantity": 1,
+  "maxQuantity": 50,
+  "spriteDescriptors": {
+    "DOWN": {
+      "filename": "Bag.png",
+      "offsetPixels": {
+        "x": 0,
+        "y": 0
+      },
+      "coloringLayer": "SEED_COLOR",
+      "childAssets": [
+        {
+          "type": "ABOVE_LAYER_1",
+          "offsetPixels": {
+            "x": 8,
+            "y": 9.5
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "WOODCUTTING",
+    "i18nKey": "CRAFTING_TYPE.WOODCUTTING",
+    "professionRequiredName": "LUMBERJACK",
+    "defaultItemTypeName": "Tool-Saw"
+  },
+  {
+    "name": "CARPENTRY",
+    "i18nKey": "CRAFTING_TYPE.CARPENTRY",
+    "professionRequiredName": "CARPENTER",
+    "defaultItemTypeName": "Tool-Saw",
+    "constructsFurniture": "WOOD"
+  },
+  {
+    "name": "STONEMASONRY",
+    "i18nKey": "CRAFTING_TYPE.STONEMASONRY",
+    "professionRequiredName": "STONEMASON",
+    "defaultItemTypeName": "Tool-Small-Hammer",
+    "constructsFurniture": "STONE"
+  },
+  {
+    "name": "BLACKSMITHING",
+    "i18nKey": "CRAFTING_TYPE.BLACKSMITHING",
+    "professionRequiredName": "BLACKSMITH",
+    "defaultItemTypeName": "Tool-Large-Hammer",
+    "constructsFurniture": "METAL"
+  },
+  {
+    "name": "SMELTING",
+    "i18nKey": "CRAFTING_TYPE.SMELTING",
+    "professionRequiredName": "BLACKSMITH",
+    "defaultItemTypeName": "Tool-Tongs"
+  }
+]

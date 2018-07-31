@@ -1,0 +1,36 @@
+[
+  {
+    "uniqueName": "table-4x2-stone",
+    "type": "BASE_LAYER",
+    "furnitureTypeNames": ["FEASTING_TABLE"],
+    "furnitureLayoutName": "4x2",
+    "validMaterialTypes": ["STONE"],
+    "spriteDescriptors": {
+      "DOWN": {
+        "filename": "table-4x2-stone.png",
+        "coloringLayer": "STONE_COLOR",
+        "offsetPixels": {
+          "x": 32,
+          "y": 38
+        }
+      }
+    }
+  },
+  {
+    "uniqueName": "table-4x2-wood",
+    "type": "BASE_LAYER",
+    "furnitureTypeNames": ["FEASTING_TABLE"],
+    "furnitureLayoutName": "4x2",
+    "validMaterialTypes": ["WOOD"],
+    "spriteDescriptors": {
+      "DOWN": {
+        "filename": "table-4x2-wood.png",
+        "coloringLayer": "WOOD_COLOR",
+        "offsetPixels": {
+          "x": 32,
+          "y": 38
+        }
+      }
+    }
+  }
+]

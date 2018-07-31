@@ -1,0 +1,391 @@
+KEY|NOTES|ENGLISH|GERMAN|FRENCH|ITALIAN|SPANISH|PORTUGUESE|POLISH|RUSSIAN|PORTUGUESE BR|DUTCH|SWEDISH|NORWEGIAN|HUNGARIAN|FINNISH
+|||||||||||||||
+ACTION.JOB.CLEAR_GROUND|E.g. “Clearing shrub”|Clearing {{targetPlant}}|Entfernt {{plantDescription}}|Arrachant : {{plantDescription}}|Sta rimuovendo: {{plantDescription}}|Eliminando {{plantDescription}}|Limpar {{plantDescription}}|Usuwanie {{plantDescription}}|Расчищает: {{plantDescription}}|Retirando {{targetPlant}}|{plantDescription}} verwijderen|Rensa {{plantDescription}}|Fjerner {{plantDescription}}||Poistaminen: {{plantDescription}}
+ACTION.JOB.CONSTRUCT_FURNITURE|E.g. “Crafting furniture”|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}
+ACTION.JOB.DECONSTRUCT|E.g. “Removing stone wall” “Removing wooden wall”|Removing {{targetDescription}}|Baut {{targetDescription}} ab|Retirant : {{targetDescription}}|Sta rimuovendo: {{targetDescription}}|Quitando {{targetDescription}}|A remover {{targetDescription}}|Usuwa {{targetDescription}}|Удаляет: {{targetDescription}}|Removendo {{targetDescription}}|||||
+ACTION.JOB.GENERIC|E.g. “Smelting iron ore”, “Crafting wooden planks”|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}|{{profession.verb}} {{targetDescription}}
+ACTION.JOB.HARVESTING||Harvesting {{targetPlant}}|Erntet {{targetPlant}}|Récoltant : {{targetPlant}}|Sta raccogliendo: {{targetPlant}}|Cosechando {{targetPlant}}|A colher {{targetPlant}}|Zbiera {{targetPlant}}|Собирает: {{targetPlant}}|Colhendo {{targetPlant}}|||||
+ACTION.JOB.LOGGING||{{profession.verb}} {{targetPlant}}|{{profession.verb}} {{targetPlant}}|{{profession.verb}} : {{targetPlant}}|{{profession.verb}}: {{targetPlant}}|{{profession.verb}} {{targetPlant}}|{{profession.verb}} {{targetPlant}}|{{profession.verb}} {{targetPlant}}|{{profession.verb}} {{targetPlant}}|{{profession.verb}} {{targetPlant}}|||||
+ACTION.JOB.PLANTING||Planting {{requiredItem}}|Pflanzt {{requiredItem}}|Plantant : {{requiredItem}}|Sta piantando: {{requiredItem}}|Colocando {{requiredItem}}|A plantar {{requiredItem}}|Sadzi {{requiredItem}}|Сажает: {{requiredItem}}|Plantando {{requiredItem}}|||||
+ACTION.JOB.REMOVE_PESTS_FROM_CROP||Removing pests from {{targetPlant}}|Entfernt Schädlinge von {{targetPlant}}|Désinsectisant : {{targetPlant}}|Sta disinfestando: {{targetPlant}}|Eliminando plagas de {{targetPlant}}|A remover pragas de {{targetPlant}}|Usuwa szkodniki z {{targetPlant}}|Избавляет от вредителей: {{targetPlant}}|Exterminando pragas de {{targetPlant}}|||||
+ACTION.JOB.TILLING||Tilling the earth|Beackert den Boden|Labourant la terre|Sta arando il terreno|Labrando la tierra|A lavrar a terra|Uprawia ziemię|Обрабатывает землю|Lavrando a terra|||||
+ACTION.JOB.TRANSFER_LIQUID||Filling {{targetDescription}}|Füllt {{targetDescription}}|Remplissant : {{targetDescription}}|Sta riempiendo: {{targetDescription}}|Llenando {{targetDescription}}|A encher {{targetDescription}}|Wypełnia {{targetDescription}}|Заполняет: {{targetDescription}}|Enchendo {{targetDescription}}|||||
+ACTION.SELECT_JOB.DESCRIPTION|When looking for a job to work|Looking for work to do|Sucht Arbeit|Cherchant quoi faire|Sta cercando qualcosa da fare|Buscando qué hacer|À procura de trabalho|Szuka pracy|Ищет работу|Procurando o que fazer|Werkzoekend|Söker efter arbete|Leter etter arbeid||Etsii työtä
+ACTION.SLEEP_IN_BED.DESCRIPTION|E.g. “Sleeping in wooden bed”|Sleeping in {{containerDescription}}|Schläft in {{containerDescription}}|Dormant : {{containerDescription}}|Sta dormendo in: {{containerDescription}}|Durmiendo en {{containerDescription}}|A dormir em {{containerDescription}}|Śpi w {{containerDescription}}|Спит в: {{containerDescription}}|Dormindo em {{containerDescription}}|||||
+ACTION.SLEEP_ON_FLOOR.DESCRIPTION|E.g. “Sleeping on rough stone floor”|Sleeping on {{tileDescription}}|Schläft auf {{tileDescription}}|Dormant : {{tileDescription}}|Sta dormendo su: {{tileDescription}}|Durmiendo sobre {{tileDescription}}|A dormir em {{tileDescription}}|Śpi na {{tileDescription}}|Спит на: {{tileDescription}}|Dormindo em {{tileDescription}}|||||
+|||||||||||||||
+CONSTRUCTION.DESCRIPTION|E.g. “Construction of granite stonemason workbench”|Construction of {{materialType.adjective}} {{furnitureType.noun}}|Herstellung von {{furnitureType.noun}} aus {{materialType}}|Construction : {{furnitureType.noun}} {{materialType.adjective}}|Costruzione di: {{furnitureType.noun}} {{materialType.adjective}}|Construcción de {{furnitureType.noun}} {{materialType.adjective}}|Construção de {{materialType.adjective}} {{furnitureType.noun}}|W budowie: {{materialType.adjective}} {{furnitureType.noun}}|Строительство: {{furnitureType.noun}} {{materialType.adjective}}|Fabricação de {{furnitureType.noun}} {{materialType.adjective}}|Constructie van een {{materialType.adjective}} {{furnitureType.noun}}|Konstruktion av {{materialType.adjective}} {{furnitureType.noun}}|Bygging av {{materialType.adjective}} i {{furnitureType.noun}}|Épül: {{materialType.adjective}} {{furnitureType.noun}}|Rakentaminen: {{materialType.adjective}} {{furnitureType.noun}}
+CONSTRUCTION.ITEM_ALLOCATION|E.g. “1 of 3 marble blocks allocated” (or assigned)|{{quantity}} of {{itemDescription}} allocated|{{quantity}} von {{itemDescription}} zugewiesen|Assignation : {{quantity}} {{itemDescription}}|Assegnazione di {{itemDescription}}: {{quantity}}|Asignado: {{quantity}} de {{itemDescription}}|{{quantity}} de {{itemDescription}} atribuídos|Liczba przydzielonych {{itemDescription}}: {{quantity}}|Распределено: {{quantity}} из {{itemDescription}}|Alocação: {{quantity}}{{itemDescription}}|||||
+CONSTRUCTION.STATUS.CLEARING_WORK_SITE|This is to be displayed when other items need to be cleared out from an area that has something being built over it|Removing other items|Baut andere Gegenstände ab|Retirant d'autres objets|Sta rimuovendo altri oggetti|Eliminando otros objetos|A remover outros itens|Usuwanie innych przedmiotów|Удаление других предметов|Removendo outros itens|||||
+CONSTRUCTION.STATUS.SELECTING_MATERIALS|E.g. “Waiting for more wooden planks to be available”|Waiting for more {{materialType}} {{itemDescription.plural}} to be available|Wartet auf mehr {{itemDescription.plural}} aus {{materialType}}|Attendant plus de {{itemDescription.plural}} en {{materialType}} disponibles|In attesa di maggiore disponibilità di {{itemDescription.plural}} {{materialType}}|Esperando a que haya disponibles más {{itemDescription.plural}} {{materialType}}|A aguardar por mais {{materialType}} {{itemDescription.plural}} disponível|Oczekuje aż będzie dostępne więcej {{materialType}} {{itemDescription.plural}}|Ожидание дополнительных материалов: {{materialType}} {{itemDescription.plural}}|Aguardando mais {{itemDescription.plural}} de {{materialType}} disponíveis|||||
+CONSTRUCTION.STATUS.WAITING_FOR_COMPLETION|This is displayed once all resources are in place and the construction is being worked on|Under construction|Wird gebaut|En construction|In costruzione|En construcción|Em construção|W budowie|Идет строительство|Em construção|||||
+CONSTRUCTION.STATUS.WAITING_FOR_RESOURCES|This is displayed while a construction is waiting for resource items to be placed in the build area|Waiting for resources to arrive|Wartet auf Materialien|Attendant l'arrivée de ressources|In attesa dell'arrivo delle risorse|Esperando a que los recursos lleguen|A aguardar a chegada de recursos|Oczekuje na dostawę zasobów|Ожидание доставки ресурсов|Aguardando a chegada de recursos|||||
+|||||||||||||||
+COOKING.DUAL_INGREDIENT.DESCRIPTION|E.g. “Tomato and potato”, to be used for for two ingredients together as below|{{materialOne}} and {{materialTwo}}|{{materialOne}} und {{materialTwo}}|{{materialOne}} et {{materialTwo}}|{{materialOne}} e {{materialTwo}}|{{materialOne}} y {{materialTwo}}|{{materialOne}} e {{materialTwo}}|{{materialOne}} i {{materialTwo}}|{{materialOne}} и {{materialTwo}}|{{materialOne}} e {{materialTwo}}|||||
+COOKING.SOUP.DESCRIPTION|E.g. “Tomato soup”, “Tomato and potato soup”, “Vegetable soup”|{{materialDescription}} soup|Suppe aus {{materialDescription}}|Soupe : {{materialDescription}}|Zuppa ({{materialDescription}})|Sopa {{materialDescription}}|Sopa de {{materialDescription}}|Zupa z {{materialDescription}}|{{materialDescription}} суп|sopa de {{materialDescription}}|||||
+|||||||||||||||
+CROP.AFFLICTED_BY_PESTS|For when a crop plant is infested with insects and other pests and needs some work to remove them|Afflicted by pests|Von Schädlingen befallen|Infesté de nuisibles|Infestato dai parassiti|Infestado por plaga|Atacado por pragas|Zaatakowane przez szkodniki|Поражено вредителями|Infestação de pragas|||||
+CROP.DESCRIPTION||{{materialType.noun}} plant|{{materialType.noun}}-Pflanze|Plant :{{materialType.noun}}|{{materialType.noun}}|{{materialType.noun}}|Planta {{materialType.noun}}|Roślina {{materialType.noun}}|Растение: {{materialType.noun}}|plantação de {{materialType.noun}}|||||
+CROP.HARVEST_PROGRESS|E.g. “Progress towards harvest: 30%”|Progress towards harvest: {{progress}}%|Reifungsprozess: {{progress}} %|Progression avant récolte : {{progress}} %|Progresso della raccolta: {{progress}}%|Progreso de la cosecha: {{progress}} %|Progresso até à colheita: {{progress}}%|Postępy zbierania: {{progress}}%|Прогресс до сбора урожая: {{progress}}%|Progressão até a colheita: {{progress}}%|||||
+|||||||||||||||
+EARTH.GRASS.NOUN|These will only be used on their own, not as part of anything else|Grass|Gras|Herbe|Erba|Hierba|Erva|Trawa|Трава|Relva||||Fű|
+|||||||||||||||
+FLOOR.COBBLESTONE||Cobblestone|Pflasterstein|Pavé|Ciottoli|Adoquines|Pedra|Bruk|Булыжный|Calçamento|||||
+FLOOR.DESCRIPTION||{{floorType.noun}}|{{floorType.noun}}|{{floorType.noun}}|{{floorType.noun}}|{{floorType.noun}}|{{floorType.noun}}|{{floorType.noun}}|{{floorType.noun}}|{{floorType.noun}}|||||
+FLOOR.DIRT||Dirt|Boden|Terre|Terra|Tierra|Terra|Ziemia|Грязь|Solo|||||
+FLOOR.GRASS||Grass|Gras|Herbe|Erba|Hierba|Erva|Trawa|Трава|Relva|||||
+FLOOR.GRAVEL||Gravel|Kies|Gravier|Ghiaia|Grava|Gravilha|Żwir|Гравий|Cascalho|||||
+FLOOR.RIVER||River|Fluss|Rivière|Fiume|Río|Rio|Rzeka|Река|Rio|||||
+FLOOR.ROUGH_STONE||Rough stone floor|Steinboden|Rocher brut|Pietra grezza|Piedra áspera|Chão de pedra|Kamienna podłoga|Грубый каменный пол|Terreno rochoso|||||
+FLOOR.STONE_SLAB||Stone slab|Steinplatte|Dalle|Lastre di pietra|Losa de piedra|Laje de pedra|Kamienna płyta|Каменная плитка|Laje de pedra|||||
+FLOOR.TILLED_EARTH||Tilled earth|Ackerboden|Terre labourée|Terreno arato|Tierra labrada|Terra lavrada|Ziemia uprawna|Обработанная земля|Solo arado|||||
+|||||||||||||||
+FURNITURE.CARPENTRY_WORKBENCH||Carpentry workbench|Schreinerstation|Établi de menuisier|Banco dell'artigiano|Mesa de trabajo de carpintero|Bancada de trabalho de carpintaria|Stół cieśli|Верстак плотника|Bancada de carpintaria|Timmerwerkbank|Snickarbänk|Snekkerbenk|Ács munkaasztal|Höyläpenkki
+FURNITURE.CHAIR||Chair|Stuhl|Chaise|Sedia|Silla|Cadeira|Krzesło|Стул|Cadeira|Stoel|Stol|Stol|Szék|Tuoli
+FURNITURE.DESCRIPTION|E.g. “Granite stonemason workbench”|{{materialType.adjective}} {{furnitureType.noun}}|{{furnitureType.noun}} aus {{materialType}}|{{furnitureType.noun}} {{materialType.adjective}}|{{furnitureType.noun}} {{materialType.adjective}}|{{furnitureType.noun}} {{materialType.adjective}}|{{materialType.adjective}} {{furnitureType.noun}}|{{materialType.adjective}} {{furnitureType.noun}}|{{materialType.adjective}} {{furnitureType.noun}}|{{furnitureType.noun}} {{materialType.adjective}}|{{materialType.adjective}} {{furnitureType.noun}}||{{furnitureType.noun}} i {{materialType.adjective}}|{{materialType.adjective}} {{furnitureType.noun}}|{{materialType.adjective}} {{furnitureType.noun}}
+FURNITURE.KITCHEN_WORKTOP|Simple piece of furniture in a kitchen used to hold ingredients on top of it|Kitchen worktop|Küchentisch|Plan de travail|Piano di lavoro da cucina|Mesa para cocinar|Bancada de cozinha|Blat kuchenny|Кухонная столешница|Bancada de cozinha|||||
+FURNITURE.LANTERN||Lantern|Laterne|Lanterne|Lanterna|Farol|Lanterna|Latarnia|Фонарь|Lanterna|Lantaarn|Lykta|Lykt|Lámpa|Lyhty
+FURNITURE.LARGE_TABLE||Large table|Esstisch|Grande table|Tavolo grande|Mesa grande|Mesa grande|Duży stół|Большой стол|Mesa grande|Tafel|Stort bord|Stort bord|Nagy asztal|Suuri pöytä
+FURNITURE.PLACEHOLDER_SMELTER||Placeholder smelter|Platzhalter-Schmelzer|Fonderie provisoire|Fucina segnaposto|Marcador de fundición|Placeholder fundição|Tymczasowa huta|Временная плавильня|Fundidor provisório|||||
+FURNITURE.PLACEHOLDER_SMITHY||Placeholder smithy|Platzhalter-Schmiede|Forge provisoire|Forgia segnaposto|Marcador de forja|Placeholder ferraria|Tymczasowa kuźnia|Временная кузница|Forja provisória|||||
+FURNITURE.SINGLE_BED||Bed|Bett|Lit|Letto|Cama|Cama|Łóżko|Кровать|Cama|||||
+FURNITURE.SINGLE_DOOR||Door|Tür|Porte|Porta|Puerta|Porta|Drzwi|Дверь|Porta|Deur|Dörr|Dør|Ajtó|Ovi
+FURNITURE.SINGLE_DOOR_FRAME||Door frame|Türrahmen|Encadrement de porte|Telaio per porta|Marco de puerta|Ombreira de porta|Futryna|Дверной косяк|Moldura de porta|Deurkozijn|Dörrkarm|Dørkarm|Ajtókeret|Oven karmi
+FURNITURE.SMALL_TABLE||Small table|Tisch|Petite table|Tavolo piccolo|Mesa pequeña|Mesa pequena|Mały stół|Маленький стол|Mesa pequena|Tafeltje|Litet bord|Lite bord|Kis asztal|Pieni pöytä
+FURNITURE.STONEMASON_WORKBENCH||Stonemason workbench|Steinmetzstation|Établi de tailleur de pierre|Banco da tagliapietre|Mesa de trabajo de albañil|Bancada de trabalho de cantaria|Stół kamieniarza|Верстак каменщика|Bancada de pedreiro|Steenhouwerswerkbank|Stenhuggarbänk|Steinhuggerbenk|Kőfaragó munkaasztal|Kivenhakkaajan työpenkki
+FURNITURE.STOOL||Stool|Hocker|Tabouret|Sgabello|Taburete|Banco|Stołek|Табурет|Banqueta|Kruk|Pall|Krakk|Zsámoly|Jakkara
+FURNITURE.WATER_BARREL||Water barrel|Wasserfass|Tonneau à eau|Barile d'acqua|Barril de agua|Barril de água|Beczka na wodę|Бочка для воды|Barril de água|||||
+FURNITURE.WOODCUTTERS_BENCH||Woodcutting bench|Holzfällerstation|Établi de scieur|Banco da taglialegna|Soporte para cortar madera|Bancada de corte de lenha|Stół do cięcia drewna|Верстак резчика по дереву|Bancada de madeireiro|Zaagwerkbank|Huggkubb|Sagbenk|Favágó munkaasztal|Sahapukki
+FURNITURE.CAULDRON|A large metal pot for cooking (common with Halloween)|Cauldron|Kessel|Chaudron|Calderone|Caldero|Caldeirão|Kocioł|Котел|Caldeirão|||||
+FURNITURE.FEASTING_TABLE|A very large table for a feast|Feasting table|Festtafel|Table de banquet|Tavolo da banchetto|Mesa para banquetes|Mesa de banquete|Stół biesiadny|Огромный стол|Mesa de banquete|||||
+FURNITURE.SERVING_TABLE|A table used to hold food for serving|Serving table|Serviertisch|Buffet|Tavolo di servizio|Mesa para servir|Mesa auxiliar|Stół do podawania posiłków|Сервировочный стол|Mesa de refeições|||||
+FURNITURE.BAKING_OVEN|For the baking of bread|Baker's oven|Backofen|Four de boulanger|Forno da panettiere|Horno para panaderos|Forno de padaria|Piec do chleba|Духовка для выпечки|Forno de padeiro|||||
+|||||||||||||||
+GEM.AMETHYST.ADJECTIVE||Amethyst|Amethyst|en améthyste|di ametista|De amatista|De ametista|Ametystowy|(аметист)|de ametista|Amethist|Ametist-|Ametyst|Ametiszt|Ametistinen
+GEM.AMETHYST.NOUN||Amethyst|Amethyst|Améthyste|Ametista|Amatista|Ametista|Ametyst|Аметист|de ametista|Amethist|Ametist|Ametyst|Ametiszt|Ametisti
+GEM.AQUAMARINE.ADJECTIVE||Aquamarine|Aquamarin|en aigue-marine|di acquamarina|De aguamarina|De água-marinha|Akwamarynowy|(аквамарин)|de água-marinha|Aquamarijn|Akvamarin-|Akvamarin|Akvamarin|Akvamariininen
+GEM.AQUAMARINE.NOUN||Aquamarine|Aquamarin|Aigue-marine|Acquamarina|Aguamarina|Água-marinha|Akwamaryna|Аквамарин|de água-marinha|Aquamarijn|Akvamarin|Akvamarin|Akvamarin|Akvamariini
+GEM.CITRINE.ADJECTIVE||Citrine|Zitrin|en citrine|di citrino|De cuarzo|De citrino|Cytrynowy|(цитрин)|de citrino|Citrien|Citron-|Citrin|Sárga kvarc|Sitriininen
+GEM.CITRINE.NOUN||Citrine|Zitrin|Citrine|Citrino|Cuarzo|Citrino|Cytryn|Цитрин|de citrino|Citrien|Citrin|Citrin|Sárga kvarc|Sitriini
+GEM.DIAMOND.ADJECTIVE||Diamond|Diamant|en diamant|di diamante|De diamante|De diamante|Diamentowy|(алмаз)|de diamante|Diamanten|Diamant-|Diamant|Gyémánt|Timanttinen
+GEM.DIAMOND.NOUN||Diamond|Diamant|Diamant|Diamante|Diamante|Diamante|Diament|Алмаз|de diamante|Diamant|Diamant|Diamant|Gyémánt|Timantti
+GEM.EMERALD.ADJECTIVE||Emerald|Smaragd|en émeraude|di smeraldo|De esmeralda|De esmeralda|Szmaragdowy|(изумруд)|de esmeralda|Smaragd|Smaragd-|Smaragd|Smaragd|Smaragdinen
+GEM.EMERALD.NOUN||Emerald|Smaragd|Émeraude|Smeraldo|Esmeralda|Esmeralda|Szmaragd|Изумруд|de esmeralda|Smaragd|Smaragd|Smaragd|Smaragd|Smaragdi
+GEM.GARNET.ADJECTIVE||Garnet|Granat|en grenat|di granato|De granate|De granada|Granatowy|(гранат)|de granada|Granaten|Granat-|Granat|Gránát|Granaattinen
+GEM.GARNET.NOUN||Garnet|Granat|Grenat|Granato|Granate|Granada|Granat|Гранат|de granada|Granaat|Granat|Granat|Gránát|Granaatti
+GEM.JADE.ADJECTIVE||Jade|Jade|en jade|di giada|De jade|De jade|Jadeitowy|(нефрит)|de jade|Jaden|Jade-|Jade|Jáde|Jadekivinen
+GEM.JADE.NOUN||Jade|Jade|Jade|Giada |Jade|Jade|Jadeit|Нефрит|de jade|Jade|Jade|Jade|Jáde|Jade
+GEM.JASPER.ADJECTIVE||Jasper|Jaspis|en jaspe|di diaspro|De jaspe|De jaspe|Jaspisowy|(яшма)|de jaspe|Jaspis|Jaspis-|Jaspis|Jáspis|Jaspiskivinen
+GEM.JASPER.NOUN||Jasper|Jaspis|Jaspe|Diaspro|Jaspe|Jaspe|Jaspis|Яшма|de jaspe|Jaspis|Jaspis|Jaspis|Jáspis|Jaspiskivi
+GEM.MOONSTONE.ADJECTIVE||Moonstone|Mondstein|en pierre de lune|di pietra di luna|De piedra lunar|De pedra da lua|Księżycowy|(лунный камень)|de selenita|Maansteen|Månsten-|Månestein|Holdkő|Kuukivinen
+GEM.MOONSTONE.NOUN||Moonstone|Mondstein|Pierre de lune|Pietra di luna|Piedra lunar|Pedra da lua|Kamień księżycowy|Лунный камень|de selenita|Maansteen|Månsten|Månestein|Holdkő|Kuukivi
+GEM.MORGANITE.ADJECTIVE||Morganite|Beryll|en morganite|di morganite|De morganita|De morganite|Morganitowy|(морганит)|de morganita|Morganiet|Morganit-|Morganitt|Morganit|Morganiittinen
+GEM.MORGANITE.NOUN||Morganite|Beryll|Morganite|Morganite|Morganita|Morganite|Morganit|Морганит|de morganita|Morganiet|Morganit|Morganitt|Morganit|Morganiitti
+GEM.OPAL.ADJECTIVE||Opal|Opal|en opale|di opale|De ópalo|De opala|Opalowy|(опал)|de opala|Opaal|Opal-|Opal|Opál|Opaalinen
+GEM.OPAL.NOUN||Opal|Opal|Opale|Opale|Ópalo|Opala|Opal|Опал|de opala|Opaal|Opal|Opal|Opál|Opaali
+GEM.ROCK_CRYSTAL.ADJECTIVE||Rock crystal|Bergkristall|en quartz|di cristallo di rocca|De cristal de roca|De cristal de rocha|Kryształowy|(горный хрусталь)|de cristal de rocha|Steenkristallen|Bergkristall-|Kvarts|Hegyikristály|Vuorikristallinen
+GEM.ROCK_CRYSTAL.NOUN||Rock crystal|Bergkristall|Quartz|Cristallo di rocca|Cristal de roca|Cristal de rocha|Kryształ|Горный хрусталь|de cristal de rocha|Steenkristal|Bergkristall|Kvarts|Hegyikristály|Vuorikristalli
+GEM.RUBY.ADJECTIVE||Ruby|Rubin|en rubis|di rubino|De rubí|De rubi|Rubinowy|(рубин)|de rubi|Robijnen|Rubin-|Rubin|Rubint|Rubiininen
+GEM.RUBY.NOUN||Ruby|Rubin|Rubis|Rubino|Rubí|Rubi|Rubin|Рубин|de rubi|Robijn|Rubin|Rubin|Rubint|Rubiini
+GEM.SAPPHIRE.ADJECTIVE||Sapphire|Saphir|en saphir|di zaffiro|De zafiro|De safira|Szafirowy|(сапфир)|de safira|Saffieren|Safir-|Safir|Zafír|Safiirinen
+GEM.SAPPHIRE.NOUN||Sapphire|Saphir|Saphir|Zaffiro|Zafiro|Safira|Szafir|Сапфир|de safira|Saffier|Safir|Safir|Zafír|Safiiri
+GEM.SPINEL.ADJECTIVE||Spinel|Spinell|en spinelle|di smeriglio|De espinela|De espinela|Spinelowy|(шпинель)|de espinela|Spinel|Spinell-|Spinell|Spinell|Spinellinen
+GEM.SPINEL.NOUN||Spinel|Spinell|Spinelle|Smeriglio|Espinela|Espinela|Spinel|Шпинель|de espinela|Spinel|Spinell|Spinell|Spinell|Spinelli
+GEM.TANZANITE.ADJECTIVE||Tanzanite|Tansanit|en tanzanite|di tanzanite|De tanzanita|De tanzanite|Tanzanitowy|(танзанит)|de tanzanita|Tanzaniet|Tanzanite-|Tanzanitt|Tanzanit|Tansaniittinen
+GEM.TANZANITE.NOUN||Tanzanite|Tansanit|Tanzanite|Tanzanite|Tanzanita|Tanzanite|Tanzanit|Танзанит|de tanzanita|Tanzaniet|Tanzanite|Tanzanitt|Tanzanit|Tansaniitti
+GEM.TOPAZ.ADJECTIVE||Topaz|Topas|en topaze|di topazio|De topacio|De topázio|Topazowy|(топаз)|de topázio|Topaas|Topas-|Topas|Topáz|Topaasinen
+GEM.TOPAZ.NOUN||Topaz|Topas|Topaze|Topazio|Topacio|Topázio|Topaz|Топаз|de topázio|Topaas|Topas|Topas|Topáz|Topaasi
+GEM.TOURMALINE.ADJECTIVE||Tourmaline|Turmalin|en tourmaline|di tormalina|De turmalina|De turmalina|Turmalinowy|(турмалин)|de turmalina|Toermalijn|Turmalin-|Turmalin|Turmalin|Turmaliininen
+GEM.TOURMALINE.NOUN||Tourmaline|Turmalin|Tourmaline|Tormalina|Turmalina|Turmalina|Turmalin|Турмалин|de turmalina|Toermalijn|Turmalin|Turmalin|Turmalin|Turmaliini
+GEM.TURQUOISE.ADJECTIVE||Turquoise|Türkis|en turquoise|di turchese|De turquesa|De turquesa|Turkusowy|(бирюза)|de turquesa|Turkooizen|Turkos-|Turkis|Türkiz|Turkoosinen
+GEM.TURQUOISE.NOUN||Turquoise|Türkis|Turquoise|Turchese|Turquesa|Turquesa|Turkus|Бирюза|de turquesa|Turkoois|Turkos|Turkis|Türkiz|Turkoosi
+|||||||||||||||
+GOAL.ADD_TO_INVENTORY.DESCRIPTION|E.g. “Collecting bag of wheat seeds”|Collecting {{targetDescription}}|Sammelt {{targetDescription}}|Collectant : {{targetDescription}}|Sta raccogliendo: {{targetDescription}}|Recogiendo {{targetDescription}}|A recolher {{targetDescription}}|Zbieranie {{targetDescription}}|Собирает: {{targetDescription}}|Coletando {{targetDescription}}|||||
+GOAL.HAULING.DESCRIPTION|E.g. “Hauling granite stone”|Hauling {{targetDescription}}|Transportiert {{itemDescription}}|Transportant : {{itemDescription}}|Sta trasportando: {{itemDescription}}|Transportando {{itemDescription}}|Carregar {{itemDescription}}|Transportowanie {{itemDescription}}|Переносит: {{itemDescription}}|Transportando {{targetDescription}}|{{itemDescription}} sjouwen|Släpa {{itemDescription}}|Frakter {{itemDescription}}||Kuljetus: {{itemDescription}}
+GOAL.IDLE.DESCRIPTION|When not doing anything|Idle|Unbeschäftigt|Libre|Non sta facendo niente|Descansando|Inativo|Bezczynny|Бездельничает|À toa|Nietsdoend|Inaktiv|Ledig||Joutilas
+GOAL.SLEEP.DESCRIPTION||Going to sleep|Geht schlafen|Va dormir|Sta andando a dormire|Yendo a dormir|A ir para a cama|Idzie spać|Идет спать|Indo dormir|||||
+GOAL.TRANSFER_LIQUID.DESCRIPTION|Becomes “Transferring water”|Transferring {{targetZoneMaterial}}|Füllt {{targetZoneMaterial}} um|Transférant : {{targetZoneMaterial}}|Sta trasferendo: {{targetZoneMaterial}}|Transfiriendo {{targetZoneMaterial}}|A transferir {{targetZoneMaterial}}|Przenosi {{targetZoneMaterial}}|Переносит: {{targetZoneMaterial}}|Transferindo {{targetZoneMaterial}}|||||
+|||||||||||||||
+GUI.ADD_REMOVE_ZONE_TILES|Heading to describe adding or removing an area of a zone/room|Add/remove tiles|Felder hinzufügen/entfernen|Ajouter/retirer des cases|Aggiungi/Rimuovi caselle|Añadir/eliminar baldosas|Adicionar/remover mosaicos|Dodaj/usuń kafelki|Добавление/удаление квадратов|Adicionar/remover áreas|||||
+GUI.ADD_TILES|This should be as short as possible|Add tiles|Felder hinzufügen|Ajouter des cases|Aggiungi caselle|Añadir baldosas|Adicionar mosaicos|Dodaj kafelki|Добавить квадраты|Adicionar áreas|Tegels toevoegen|Lägg till paneler|Legg til felter|Mezők hozzáadása|Lisää ruutuja
+GUI.BACK_LABEL|This should be as short as possible|Back|Zurück |Retour |Indietro|Atrás|Anterior|Wstecz |Назад|Voltar|Vorige|Tillbaka |Tilbake|Vissza|Taakse
+GUI.BUILD.DOORS|Take from FURNITURE.SINGLE_DOOR|Doors|Türen|Portes|Porte|Puertas|Portas|Drzwi|Двери|Portas|||||
+GUI.BUILD.WALLS||Walls|Wände|Murs|Pareti|Muros|Paredes|Ściany|Стены|Paredes|||||
+GUI.BUILD.WALLS.LSHAPE|For building two walls in an L-shape|L-shape|L-Form|En L|Angolo|Forma en L|Forma em L|Kształt L|Г-образное соединение|Em L|||||
+GUI.BUILD.WALLS.QUAD|For building 4 walls at once|Quad|Viereck|En carré|Quadrato|Cuatro paredes|Quadriculado|Poczwórny|Четверное|Quadrática|||||
+GUI.BUILD.WALLS.SINGLE|For building a single wall|Single|Einzeln|Simple|Singola|Única|Simples|Pojedynczy|Одинарное|Individual|||||
+GUI.BUILD_FURNITURE|This should be as short as possible|Furniture|Möbel|Meubles|Suppellettili|Muebles|Mobília|Meble|Мебель|Mobília|Meubels|Möbler|Møbler|Búrotok|Huonekalut
+GUI.BUILD_LABEL|This should be as short as possible|Build|Bauen |Construire |Costruisci|Construir |Construir |Buduj|Построить|Construir|Bouwen|Bygg|Bygg|Építés|Rakenna
+GUI.CANCEL_LABEL|This should be as short as possible|Cancel|Abbrechen |Annuler |Annulla|Cancelar |Cancelar |Anuluj |Отмена|Cancelar|Annuleren |Avbryt |Avbryt|Mégse|Peruuta
+GUI.CROP_SELECTION||Crop:|Pflanze:|Culture :|Coltura:|Cosecha:|Plantação:|Plon:|Культура:|Cultivo:|||||
+GUI.DATE_TIME_LABEL|E.g. 09:20, day 4, spring|{{timeOfDay}}, day {{dayNumber}}, {{season}}|{{timeOfDay}}, Tag {{dayNumber}}, {{season}}|{{timeOfDay}}, jour {{dayNumber}}, {{season}}|{{timeOfDay}}, {{dayNumber}}° giorno, {{season}}|{{timeOfDay}}, día {{dayNumber}}, {{season}}|{{timeOfDay}}, dia {{dayNumber}}, {{season}}|{{timeOfDay}} , dzień {{dayNumber}} , {{season}}|{{timeOfDay}}, день {{dayNumber}}, {{season}}|{{timeOfDay}}, dia {{dayNumber}}, {{season}}|||||
+GUI.FURNITURE_ASSIGNED_TO|Used to show who owns a piece of furniture|Assigned to {{name}}|Zugewiesen zu {{name}}|Appartient à {{name}}|Oggetto assegnato a: {{name}}|Asignado a {{name}}|Atribuído a {{name}}|Przypisano do {{name}}|Принадлежит: {{name}}|Atribuição: {{name}}|||||
+GUI.FURNITURE_BEING_REMOVED|Label for when a piece of furniture is in the process of being removed|Currently being removed|Wird gerade entfernt|Retrait en cours|Rimozione in corso|Se está eliminando|Atualmente em remoção|Trwa usuwanie|В процессе удаления|Em remoção|||||
+GUI.LEAVE_CROP_FALLOW||None (Leave fallow)|Keine (Brachfläche)|Vide (en jachère)|Nessuna (lascia incolto)|Nada (en barbecho)|Nenhum (pousio)|Brak (pozostawić odłogiem)|Ничего (оставить под паром)|Nada (deixar em repouso)|||||
+GUI.NEXT_LABEL|This should be as short as possible|Next|Weiter|Suivant|Avanti|Seguir|Seguinte|Dalej|Далее|Seguinte|Volgende|Nästa|Neste|Következő|Eteen
+GUI.OK_LABEL|This should be as short as possible|Ok|OK|OK|OK|Ok|OK|OK|OK|OK|OK|OK|OK|OK|OK
+GUI.ORDERS.CHOP_WOOD|This should be as short as possible|Chop|Hacken|Couper|Taglia|Talar|Cortar|Rąb|Рубить|Cortar|Houthakken|Hugga|Hugg|Favágás|Hakkaa
+GUI.ORDERS.CLEAR_GROUND|This should be as short as possible|Clear|Aufräumen|Arracher|Rimuovi|Despejar|Limpar|Sprzątaj|Расчистить|Limpar|Ontginnen|Rensa|Rydd|Megtisztít|Tyhjentää
+GUI.ORDERS.HARVEST_PLANTS|This should be as short as possible|Harvest|Ernten|Récolter |Raccogli|Cosechar|Colher|Zbieraj|Собирать|Colher|Oogsten|Skörda|Høst inn|Begyűjtés|Korjaa
+GUI.ORDERS.MINE|This should be as short as possible|Mine|Graben |Miner|Scava|Excavar|Escavar|Kop|Добывать|Minerar|Delven|Gräva|Utvinn|Bányászat|Louhi
+GUI.ORDERS_LABEL|This should be as short as possible|Orders|Bestellungen |Ordres |Ordini|Pedidos |Encomendas |Rozkazy|Приказы|Ordens|Orders |Order|Bestillinger|Parancsok|Käskyt
+GUI.REMOVE_LABEL|This should be as short as possible|Remove|Entfernen|Retirer|Rimuovi|Eliminar|Remover|Usuń|Удалить|Remover|Verwijderen|Ta bort|Fjern|Eltávolít|Poista
+GUI.REMOVE_TILES|This should be as short as possible|Remove tiles|Felder entfernen|Retirer des cases|Rimuovi caselle|Eliminar baldosas|Remover mosaicos|Usuń kafelki|Удалить квадраты|Remover áreas|Tegels verwijderen|Ta bort paneler|Fjern felter|Mezők eltávoltása|Poista ruutuja
+GUI.ROTATE_FURNITURE.HINT|This is a longer label as a hint to the player|Press (R) to rotate furniture|Zum Rotieren der Möbel (R) drücken|Appuyez sur (R) pour pivoter les meubles|Premi (R) per ruotare le suppellettili|Pulsa (R) para rotar los muebles|Premir (R) para rodar mobília|Wciśnij (R), aby obrócić mebel|Нажмите (R), чтобы повернуть мебель|Aperte (R) para girar a mobília|Druk op (R) om meubels te draaien|Tryck på (R) för att rotera möbler|Trykk på (R) for å rotere møbler|Bútor fordítása (R)|Kierrä huonekaluja painamalla (R)
+GUI.ZONES_LABEL|This should be as short as possible|Zones|Zonen|Zones|Zone|Zonas|Áreas|Strefy|Зоны|Zonas|Zones|Zoner|Soner|Zónák|Vyöhykkeet
+GUI.MUSIC_VOLUME||Music volume:|Musiklautstärke:|Volume de la musique:|Volume della musica:|Volumen de la música:|Volume da música:|Głośność muzyki:|Громкость музыки:|Volume da música:|||||
+|||||||||||||||
+HUMANOID.DESCRIPTION|E.g. “Urist McScrooge, Dwarven miner”|{{name}}, {{race.adjective}} {{profession.noun}}|{{name}}, {{race.adjective}} {{profession.noun}}|{{name}}, {{profession.noun}} {{race.adjective}}|{{name}}, {{profession.noun}} {{race.adjective}}|{{name}}, {{profession.noun}} {{race.adjective}}|{{name}}, {{race.adjective}} {{profession.noun}}|{{name}}, {{race.adjective}} {{profession.noun}}|{{name}}, {{race.noun}}-{{profession.noun}}|{{name}}, {{profession.noun}} {{race.adjective}}|{{name}}, {{race.adjective}} {{profession.noun}}||{{name}}, {{race.adjective}} og {{profession.noun}}|{{name}}, {{race.adjective}} {{profession.noun}}|{{name}}, {{race.adjective}} {{profession.noun}}
+|||||||||||||||
+INGREDIENT.SEEDS.NOUN|E.g. “Wheat seed”|Seed|Samen|Graine :|Seme|Semilla|Semente|Nasiono|Семя:|Semente|||||
+INGREDIENT.SEEDS.PLURAL|E.g. “4 wheat seeds”|Seeds|Samen|Graines :|Semi|Semillas|Sementes|Nasiona|Семена:|Sementes|||||
+INGREDIENT.VEGETABLE.SACK.NOUN|E.g. “Sack containing a potato”|Sack|Sack|Sac :|Sacco|Saco|Saco|Worek|Мешок|Saca|||||
+|||||||||||||||
+INVENTORY.CONTAINS.LABEL|This is the label of “inventory” to go above a list of items contained within a piece of furniture or held by a character|Inventory:|Inventar:|Inventaire :|Inventario:|Inventario:|Inventário:|Zapas:|Инвентарь:|Inventário:|||||
+|||||||||||||||
+ITEM.DESCRIPTION|E.g. “Iron axe”, “Beech wood fishing rod”, “3 marble blocks”|{{quantity_if_multiple}}{{materialType.adjective}} {{itemType.noun_or_plural}}|{{quantity_if_multiple}}{{itemType.noun_or_plural}} aus {{materialType}}|{{quantity_if_multiple}}{{itemType.noun_or_plural}} {{materialType.adjective}}|{{quantity_if_multiple}}{{itemType.noun_or_plural}} {{materialType.adjective}}|{{quantity_if_multiple}}{{itemType.noun_or_plural}} {{materialType.adjective}}|{{quantity_if_multiple}}{{materialType.adjective}} {{itemType.noun_or_plural}}|{{materialType.adjective}} {{itemType.noun_or_plural}}: {{quantity_if_multiple}}|{{quantity_if_multiple}}{{itemType.noun_or_plural}} {{materialType.adjective}}|{{quantity_if_multiple}}{{itemType.noun_or_plural}} {{materialType.adjective}}|{{quantity_if_multiple}}{{materialType.adjective}} {{itemType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.adjective}} {{itemType.noun_or_plural}}|{{quantity_if_multiple}}{{itemType.noun_or_plural}} i {{materialType.adjective}}|{{quantity_if_multiple}}{{materialType.adjective}} {{itemType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.adjective}} {{itemType.noun_or_plural}}
+ITEM.INGREDIENT.DESCRIPTION|E.g. “2 potatoes”|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|{{quantity_if_multiple}}{{materialType.noun_or_plural}}|||||
+|||||||||||||||
+LANGUAGE.LABEL||Language|Sprache|Langue|Lingua|Idioma|Idioma|Język|Язык|Idioma|Taal|Språk|Språk|Nyelv|Kieli
+|||||||||||||||
+LIQUID.WATER.NOUN||Water|Wasser|Eau|Acqua|Agua|Água|Woda|Вода|Água|||||
+|||||||||||||||
+MATERIAL|Used for specifying which material something is made out of|Material|Material|Matériau|Materiale|Material|Material|Materiał|Материал|Material|||||
+|||||||||||||||
+MATERIAL_TYPE||Type|Art|Sorte|Tipo|Tipo de material|Tipo|Rodzaj|тип|Tipo|Materiaal type|Sort|Type|Rendszer|Materiaali tyyppi
+MATERIAL_TYPE.ANY|For allowing any kind of material to be used|Any|Beliebig|Tous|Qualsiasi|Cualquiera|Qualquer|Każdy|Любой|Qualquer|||||
+MATERIAL_TYPE.GEM.NOUN|This is only used as a noun|Gem|Edelstein|Gemme|Gemma|{{BLANK}}|Joia|Klejnot|Самоцвет|de gema|{{BLANK}}|Ädelsten|Juvel|Drágakő|Jalokivi
+MATERIAL_TYPE.METAL.ADJECTIVE||Metallic|Metall|en métal|di metallo|De metal|De metal|Metalowy|(металл)|de metal|Metalen|Metallisk|Metall|Fém|Metallinen
+MATERIAL_TYPE.METAL.NOUN||Metal|Metall|Métal|Metallo|Metal|Metal|Metal|Металл|Metal|Metaal|Metall|Metall|Fém|Metalli
+MATERIAL_TYPE.ORE.NOUN|This is only used as a noun|Ore|Erz|Minerai|{{BLANK}}|{{BLANK}}|Minério|Ruda|Руда|Minério|{{BLANK}}|Malm|Malm|Érc|{{BLANK}}
+MATERIAL_TYPE.OTHER.NOUN|This isn't actually used in-game yet so won't be combined with other words|Other|Anderes|Autre|Altro|Otro|Outro|Inne|Другое|Outro(a)|Anders|Annat|Annet||Muu
+MATERIAL_TYPE.SEED.NOUN|For saying something is “made up of seed”|Seed|Samen|Graine|Seme|Semilla|Semente|Nasiono|Семя|Semente|||||
+MATERIAL_TYPE.STONE.ADJECTIVE|||Stein|en pierre|di pietra|De piedra|De pedra|Kamienny|(камень)||Stenen|Sten-|Stein||Kivinen
+MATERIAL_TYPE.STONE.NOUN||Stone|Stein|Pierre|Pietra|Piedra|Pedra|Kamień|Камень|Pedra|Steen|Sten|Stein|Kő|Kivi
+MATERIAL_TYPE.VEGETABLE.NOUN|Used to make up “Vegetable soup”|Vegetable|Gemüse|Légumes|Verdure|De verduras|Vegetal|Warzywo|Овощной|Vegetal|||||
+MATERIAL_TYPE.WOOD.ADJECTIVE||Wooden|Holz|en bois|di legno|De madera|De madeira|Drewniany|(дерево)|de madeira|Houten|Trä-|Tre|Fa|Puinen
+MATERIAL_TYPE.WOOD.NOUN||Wood|Holz|Bois|Legno|Madera|Madeira|Drewno|Дерево|Madeira|Hout|Trä|Tre|Fa|Puu
+|||||||||||||||
+MENU.CONTINUE_GAME||Continue game|Spiel fortsetzen|Continuer|Continua partita|Continuar partida|Continuar jogo|Kontynuuj|Продолжить игру|Continuar jogo|Spel hervatten|Fortsätt spela|Fortsett spill|Játék folytatása|Jatka peliä
+MENU.NEW_GAME||Start new game|Neues Spiel beginnen|Nouvelle partie|Nuova partita|Comenzar partida nueva|Iniciar novo jogo|Nowa gra|Начать новую игру|Começar outro jogo|Nieuw spel starten|Starta ett nytt spel|Start nytt spill|Új játék|Aloita uusi peli
+MENU.QUIT||Quit|Beenden|Quitter|Esci|Salir|Sair|Wyjdź|Выйти|Sair|Afsluiten|Avsluta|Avslutt|Kilépés|Lopeta
+MENU.TOGGLE_FULLSCREEN||Toggle fullscreen|Auf Vollbildschirm umstellen|Plein écran|Attiva/Disattiva schermo intero|Pantalla completa (sí/no)|Alternar ecrã inteiro|Pełen ekran|Во весь экран|Alternar tela cheia|Volledig scherm in-/uitschakelen|Växla helskärm|Skru fullskjerm på/av|Teljes képernyő|Vaihda koko näyttöön
+|||||||||||||||
+METAL.BRONZE.ADJECTIVE||Bronze|Bronze|en bronze|di bronzo|De bronce|De bronze|Brązowy|(бронза)|de bronze|Bronzen|Brons-|Bronse|Bronz|Pronssinen
+METAL.BRONZE.NOUN||Bronze|Bronze|Bronze|Bronzo|Bronce|Bronze|Brąz|Бронза|de bronze|Brons|Brons|Bronse|Bronz|Pronssi
+METAL.COPPER.ADJECTIVE||Copper|Kupfer|en cuivre|di rame|De cobre|De cobre|Miedziany|(медь)|de cobre|Koperen|Koppar-|Kobber|Réz|Kuparinen
+METAL.COPPER.NOUN||Copper|Kupfer|Cuivre|Rame|Cobre|Cobre|Miedź|Медь|de cobre|Koper|Koppar|Kobber|Réz|Kupari
+METAL.GOLD.ADJECTIVE||Golden|Gold|en or|d'oro|De oro|De ouro|Złoty|(золото)|de ouro|Gouden|Guld-|Gull|Arany|Kultainen
+METAL.GOLD.NOUN||Gold|Gold|Or|Oro|Oro|Ouro|Złoto|Золото|Ouro|Goud|Guld|Gull|Arany|Kulta
+METAL.IRON.ADJECTIVE||Iron|Eisen|en fer|di ferro|De hierro|De ferro|Żelazny|(железо)|de ferro|Ijzeren|Järn-|Jern|Vas|Rautainen
+METAL.IRON.NOUN||Iron|Eisen|Fer|Ferro|Hierro|Ferro|Żelazo|Железо|de ferro|Ijzer|Järn|Jern|Vas|Rauta
+METAL.SILVER.NOUN||Silver|Silber|Argent|Argento|Plata|Prata|Srebro|Серебро (серебро)|Prata|||||
+METAL.STEEL.ADJECTIVE||Steel|Stahl|en acier|d'acciaio|De acero|De aço|Stalowy|(сталь)|de aço|Stalen|Stål-|Stål|Acél|Teräksinen
+METAL.STEEL.NOUN||Steel|Stahl|Acier|Acciaio|Acero|Aço|Stal|Сталь|de aço|Staal|Stål|Stål|Acél|Teräs
+METAL.TIN.NOUN||Tin|Zinn|Étain|Alluminio|Hojalata|Latão|Cyna|Олово (олово)|Estanho|||||
+|||||||||||||||
+ORE.BITUMINOUS_COAL.ADJECTIVE|||||di carbone bituminoso|De carbón bituminoso|||||||||
+ORE.BITUMINOUS_COAL.NOUN|these only require nouns|Bituminous coal|Steinkohle|Charbon bitumineux|Carbone bituminoso|Carbón bituminoso|Hematite|Węgiel bitumiczny|Каменный уголь|Carvão betuminoso|Bitumineuze steenkool|Stenkol|Steinkull|Bitumenes szén|Rasvahiili
+ORE.CASSITERITE.ADJECTIVE|||||di cassiterite|De casiterita|||||||||
+ORE.CASSITERITE.NOUN||Cassiterite|Kassiterit|Cassitérite|Cassiterite|Casiterita|Cassiterite|Kasyteryt|Касситерит|Cassiterita|Cassiteriet|Kassiterit|Kassiteritt|Kassziterit|Tinakivi
+ORE.GALENA.ADJECTIVE|||||di galena|De galena|||||||||
+ORE.GALENA.NOUN||Galena|Galenit|Galène|Galena|Galena|Galena|Galena|Галенит|Galena|Loodglans|Blyglans|Blyglans|Galenit|Lyijyhohde
+ORE.HEMATITE.ADJECTIVE|||||di ematite|De hematita|||||||||
+ORE.HEMATITE.NOUN|As nothing other than ore is made out of ore,|Hematite|Hämatit|Hématite|Ematite|Hematita|Hematite|Hematyt|Гематит|Hematita|Hematiet|Hematit|Hematitt|Hematit|Hematiitti
+ORE.MALACHITE.ADJECTIVE|||||di malachite|De malaquita|||||||||
+ORE.MALACHITE.NOUN||Malachite|Malachit|Malachite|Malachite|Malaquita|Malaquite|Malachit|Малахит|Malaquita|Malachiet|Malakit|Malakitt|Malachit|Malakiitti
+ORE.NATIVE_COPPER.ADJECTIVE|||||di rame nativo|De cobre nativo|||||||||
+ORE.NATIVE_COPPER.NOUN||Native copper|Reinkupfer|Cuivre|Rame nativo|Cobre nativo|Cobre nativo|Miedź rodzima|Самородная медь|Cobre nativo|Gedegen koper|Koppar|Naturkobber|Termésréz|Pelkkä kupari
+ORE.NATIVE_GOLD.ADJECTIVE|||||d'oro nativo|De oro nativo|||||||||
+ORE.NATIVE_GOLD.NOUN||Native gold|Reingold|Or|Oro nativo|Oro nativo|Ouro nativo|Złoto rodzime|Самородное золото|Ouro nativo|Gedegen goud|Guldklimp|Naturgull|Termésarany|Pelkkä kulta
+ORE.NATIVE_SILVER.ADJECTIVE|||||d'argento nativo|De plata nativa|||||||||
+ORE.NATIVE_SILVER.NOUN||Native silver|Reinsilber|Argent|Argento nativo|Plata nativa|Prata nativa|Srebro rodzime|Самородное серебро|Prata nativa|Gedegen zilver|Silver|Natursølv|Termésezüst|Pelkkä hopea
+|||||||||||||||
+OTHER.BRICK.NOUN||Brick|Backstein|Brique|Mattone|Ladrillo|Tijolo|Cegła|Кирпич|Tijolo|Baksteen|Tegelsten|Murstein|Tégla|Tiili
+OTHER.CLAY_SOIL.NOUN||Clay soil|Lehmboden|Argile|Terreno argilloso|Arcilla|Solo argiloso|Glina|Глинозем|Solo de argila|Klei|Lerjord|Leire|Agyagos talaj|Savimaa
+OTHER.GRASS.NOUN|||Gras|Herbe|Erba|Hierba|Erva|Trawa|Трава||Gras|Gräs|Gress||Ruoho
+|||||||||||||||
+PRODUCT.BARREL||Barrel|Fass|Tonneau|Barile|Barril|Barril|Beczka|Бочка|Barril|||||
+PRODUCT.BARREL.HOOPS||Barrel hoops|Fassreifen|Cercles de tonneau|Cerchi da barile|Aros para barril|Aros de barril|Obręcze beczek|Обручи бочки|Arcos de barril|||||
+PRODUCT.BARREL.STAVES||Barrel staves|Fassdauben|Lattes de tonneau|Assi da barile|Duelas para barril|Pranchas de barril|Deszczułki beczek|Бочарные клепки|Aduelas de barril|||||
+PRODUCT.BUCKET||Bucket|Eimer|Seau|Secchio|Cubo|Balde|Wiadro|Ведро|Balde|||||
+PRODUCT.CAULDRON|A large metal pot for cooking (common with Halloween)|Cauldron|Kessel|Chaudron|Calderone|Caldero|Caldeirão|Kocioł|Котел|Caldeirão|||||
+PRODUCT.BOWL|A bowl for eating from|Bowl|Schale|Bol|Ciotola|Cuenco|Tijela|Miska|Миска|Tigela|||||
+PRODUCT.BOWL.DESCRIPTION|E.g. “Bowl of vegetable soup”|Bowl of {{cooking.soup.description}}|Schale mit {{cooking.soup.description}}|Bol de {{cooking.soup.description}}|Ciotola di {{cooking.soup.description}}|Cuenco de {{cooking.soup.description}}|Tijela de {{cooking.soup.description}}|Miska {{cooking.soup.description}}|Миска с супом ({{cooking.soup.description}})|Tigela de {{cooking.soup.description}}|||||
+|||||||||||||||
+PROFESSION.BAKER.FEMALE_NOUN||Baker|Bäckerin|Boulangère|Fornaia|Panadera|Padeira|Piekarka|Пекарь|Padeira|Bakker|Bagare|Baker|Pék|Leipuri
+PROFESSION.BAKER.MALE_NOUN||Baker|Bäcker|Boulanger|Fornaio|Panadero|Padeiro|Piekarz|Пекарь|Padeiro|Bakker|Bagare|Baker|Pék|Leipuri
+PROFESSION.BAKER.VERB||Baking|Backt|Fabriquant|Sta cuocendo|Horneando|Cozer|Piec|Выпекание|Assando|Bakken|Bakning|Baker|Sütni|Leivonta
+PROFESSION.CHEF.FEMALE_NOUN||Chef|Köchin|Cuisinière|Chef|Cocinera|Chef|Kucharz|Повариха|Chef|||||
+PROFESSION.CHEF.MALE_NOUN||Chef|Koch|Cuisinier|Chef|Cocinero|Chef|Kucharz|Повар|Chef|||||
+PROFESSION.CHEF.VERB||Cooking|Kocht|Cuisinant|Sta cucinando|Cocinando|A cozinhar|Gotować|Приготовление еды|Cozinhando|||||
+PROFESSION.BLACKSMITH.FEMALE_NOUN||Blacksmith|Schmiedin|Forgeronne|Fabbro|Herrera|Ferreira|Kowalka|Кузнец|Ferreira|Smid|Smed|Smed|Kovács|Seppä
+PROFESSION.BLACKSMITH.MALE_NOUN||Blacksmith|Schmied|Forgeron|Fabbro|Herrero|Ferreiro|Kowal|Кузнец|Ferreiro|Smid|Smed|Smed|Kovács|Seppä
+PROFESSION.BLACKSMITH.VERB||Forging|Schmiedet|Forgeant|Sta forgiando|Forjando|Forjar|Wykuwać|Ковка|Forjando|Smeden|Smida|Smir|Kovácsolni|Taonta
+PROFESSION.CARPENTER.FEMALE_NOUN||Carpenter|Schreinerin|Menuisière|Artigiana|Carpintera|Carpinteira|Stolarka|Плотник|Carpinteira|Timmervrouw|Snickare|Snekker|Ács|Puuseppä
+PROFESSION.CARPENTER.MALE_NOUN||Carpenter|Schreiner|Menuisier|Artigiano|Carpintero|Carpinteiro|Stolarz|Плотник|Carpinteiro|Timmerman|Snickare|Snekker|Ács|Puuseppä
+PROFESSION.CARPENTER.VERB||Crafting|Schreinert|Élaborant|Sta producendo|Fabricando|Trabalhar em madeira|Tworzyć|Изготовление|Carpintejando|Vervaardigen|Snickra|Bygger|Ácsolni|Valmistus
+PROFESSION.FARMER.FEMALE_NOUN||Farmer|Bäuerin|Fermière|Coltivatrice|Granjera|Agricultora|Farmerka|Фермер|Fazendeira|Boerin|Lantbrukare|Bonde|Földműves|Maanviljelijä
+PROFESSION.FARMER.MALE_NOUN||Farmer|Bauer|Fermier|Coltivatore|Granjero|Agricultor|Farmer|Фермер|Fazendeiro|Boer|Lantbrukare|Bonde|Földműves|Maanviljelijä
+PROFESSION.FARMER.VERB||Farming|Erntet|Cultivant|Sta coltivando|Cosechando|Cultivar|Uprawiać|Выращивание|Cultivando|Boeren|Odla|Dyrker|Földet művelni|Maanviljely
+PROFESSION.FISHER.FEMALE_NOUN|This could be “fisherman” and “fisherwoman”|Fisher|Fischerin|Pêcheuse|Pescatrice|Pescadora|Pescadora|Rybaczka|Рыбачка|Pescadora|Visser|Fiskare|Fisker|Halász|Kalastaja
+PROFESSION.FISHER.MALE_NOUN||Fisher|Fischer|Pêcheur|Pescatore|Pescador|Pescador|Rybak|Рыбак|Pescador|Visser|Fiskare|Fisker|Halász|Kalastaja
+PROFESSION.FISHER.VERB||Fishing|Fischt|Pêchant|Sta pescando|Pescando|Pescar|Łowić|Ловля рыбы|Pescando|Vissen|Fiska|Fisker|Halászni|Kalastus
+PROFESSION.HUNTER.FEMALE_NOUN|This could be “huntsman” and “huntress”|Hunter|Jägerin|Chasseuse|Cacciatrice|Cazadora|Caçadora|Myśliwa|Охотница|Caçadora|Jager|Jägare|Jeger|Vadász|Metsästäjä
+PROFESSION.HUNTER.MALE_NOUN||Hunter|Jäger|Chasseur|Cacciatore|Cazador|Caçador|Myśliwy|Охотник|Caçador|Jager|Jägare|Jeger|Vadász|Metsästäjä
+PROFESSION.HUNTER.VERB||Hunting|Jagt|Chassant|Sta cacciando|Cazando|Caçar|Polować|Охота|Caçando|Jagen|Jaga|Jakter på|Vadászni|Metsästys
+PROFESSION.MAYOR.FEMALE_NOUN|In English at least, “mayoress” is incorrect|Mayor|Bürgermeisterin|Maire|Sindaco|Alcaldesa|Presidente da Câmara|Burmistrzyni|Мэр|Prefeita|Burgemeester|Borgmästare|Ordfører|Polgármester|Pormestari
+PROFESSION.MAYOR.MALE_NOUN||Mayor|Bürgermeister|Maire|Sindaco|Alcalde|Presidente da Câmara|Burmistrz|Мэр|Prefeito|Burgemeester|Borgmästare|Ordfører|Polgármester|Pormestari
+PROFESSION.MAYOR.VERB||Governing|Verwaltet|Gouvernant|Sta governando|Gobernando|Governar|Rządzić|Руководство|Governando|Besturen|Styra|Styrer|Kormányozni|Hallinto
+PROFESSION.MERCHANT.FEMALE_NOUN||Merchant|Händlerin|Marchande|Mercante|Comerciante|Comerciante|Handlarka|Торговка|Mercadora|Koopvrouw|Handlare|Handelsdrivende|Kereskedő|Kauppias
+PROFESSION.MERCHANT.MALE_NOUN||Merchant|Händler|Marchand|Mercante|Comerciante|Comerciante|Handlarz|Торговец|Mercador|Koopman|Handlare|Handelsdrivende|Kereskedő|Kauppias
+PROFESSION.MERCHANT.VERB||Trading|Tauscht|Échangeant|Sta commerciando|Comerciando|Comercializar|Handlować|Торговля|Comercializando|Handelen|Handla|Kjøper og selger|Kereskedni|Kaupankäynti
+PROFESSION.MINER.FEMALE_NOUN||Miner|Bergarbeiterin|Mineuse|Minatrice|Minera|Mineira|Górniczka|Рудокоп|Mineradora|Mijnwerker|Gruvarbetare|Gruvearbeider|Bányász|Kaivostyöläinen
+PROFESSION.MINER.MALE_NOUN||Miner|Bergarbeiter|Mineur|Minatore|Minero|Mineiro|Górnik|Рудокоп|Minerador|Mijnwerker|Gruvarbetare|Gruvearbeider|Bányász|Kaivostyöläinen
+PROFESSION.MINER.VERB||Mining|Schürft|Minant|Sta scavando|Excavando|Escavar|Wydobywać|Добыча|Minerando|Delven|Gruvdrift|Utvinner|Bányászni|Louhinta
+PROFESSION.NOBLE.FEMALE_NOUN||Noble|Adliger|Noble|Nobildonna|Aristócrata|Nobre|Szlachcianka|Аристократка|Nobre|Edelvrouw|Adelskvinna|Adelig|Nemes|Aatelinen
+PROFESSION.NOBLE.MALE_NOUN||Noble|Adliger|Noble|Nobiluomo|Aristócrata|Nobre|Szlachcic|Аристократ|Nobre|Edelman|Adelsman|Adelig|Nemes|Aatelinen
+PROFESSION.NOBLE.VERB||Reigning|Regiert|Régnant|Sta regnando|Reinando|Reinar|Panować|Царствование|Reinando|Regeren|Regera|Hersker over|Uralkodni|Hallitseminen
+PROFESSION.RUNESMITH.FEMALE_NOUN|from “runes” and “blacksmith”|Runesmith|Runenschmiedin|Forgerune|Forgiarune|Runista|Criadora de runas|Runarka|Кузнец рун|Runeira|Runesmid|Runsmed|Runesmed|Rúnakovács|Riimuseppä
+PROFESSION.RUNESMITH.MALE_NOUN|This is an invented term for the game, but should be derived|Runesmith|Runenschmied|Forgerune|Forgiarune|Runista|Criador de runas|Runarz|Кузнец рун|Runeiro|Runesmid|Runsmed|Runesmed|Rúnakovács|Riimuseppä
+PROFESSION.RUNESMITH.VERB||Enchanting|Verzaubert|Enchantant|Sta incantando|Hechizando|Encantar|Zaklinać|Зачарование|Encantando|Betoveren|Förtrolla|Forhekser|Bűvölni|Loitsinta
+PROFESSION.STONEMASON.FEMALE_NOUN||Stonemason|Steinmetzin|Tailleuse de pierre|Tagliapietre|Cinceladora|Pedreira|Kamieniarka|Каменщица|Pedreira|Steenhouwer|Stenhuggare|Steinhugger|Kőfaragó|Kivenhakkaaja
+PROFESSION.STONEMASON.MALE_NOUN||Stonemason|Steinmetz|Tailleur de pierre|Tagliapietre|Cincelador|Pedreiro|Kamieniarz|Каменщик|Pedreiro|Steenhouwer|Stenhuggare|Steinhugger|Kőfaragó|Kivenhakkaaja
+PROFESSION.STONEMASON.VERB||Sculpting|Bearbeitet|Sculptant|Sta lavorando|Esculpiendo|Esculpir|Rzeźbić|Высекание|Talhando|Steenhouwen|Skulptera|Skulpterer|Követ faragni|Kivenhakkuu
+PROFESSION.TINKERER.FEMALE_NOUN||Tinker|Kesselflickerin|Bricoleuse|Stagnaia|Hojalatera|Consertadora|Majsterka|Механик|Engenhoqueira|Vakvrouw|Tennsmed|Reparatør|Bádogos|Kelloseppä
+PROFESSION.TINKERER.MALE_NOUN||Tinker|Kesselflicker|Bricoleur|Stagnaio|Hojalatero|Consertador|Majster|Механик|Engenhoqueiro|Vakman|Tennsmed|Reparatør|Bádogos|Kelloseppä
+PROFESSION.TINKERER.VERB||Tinkering|Flickt|Bricolant|Sta riparando|Fabricando|Consertar|Majstrować|Производство|Fabricando|Repareren|Lappa|Reparerer|Megfoltozni|Korjaaminen
+PROFESSION.VILLAGER.FEMALE_NOUN||Villager|Dorfbewohnerin|Villageoise|Abitante del villaggio|Aldeana|Aldeã|Wieśniaczka|Крестьянка|Aldeã|Dorpeling|Bybo|Landsbyboer|Paraszt|Kyläläinen
+PROFESSION.VILLAGER.MALE_NOUN||Villager|Dorfbewohner|Villageois|Abitante del villaggio|Aldeano|Aldeão|Wieśniak|Крестьянин|Aldeão|Dorpeling|Bybo|Landsbyboer|Paraszt|Kyläläinen
+PROFESSION.VILLAGER.VERB||Working|Arbeitet|Travaillant|Sta lavorando|Trabajando|Trabalhar|Pracować|Работа|Trabalhando|Werken|Arbeta|Arbeider med|Dolgozni|Työnteko
+PROFESSION.WOODCUTTER.FEMALE_NOUN|This could be “lumberjack” and “lumberjane”|Woodcutter|Holzfällerin|Scieuse|Taglialegna|Leñadora|Lenhadora|Drwalka|Резчица по дереву|Lenhadora|Houthakker|Skogshuggare|Tømmerhogger|Favágó|Puunhakkaaja
+PROFESSION.WOODCUTTER.MALE_NOUN||Woodcutter|Holzfäller|Scieur|Taglialegna|Leñador|Lenhador|Drwal|Резчик по дереву|Lenhador|Houthakker|Skogshuggare|Tømmerhogger|Favágó|Puunhakkaaja
+PROFESSION.WOODCUTTER.VERB||Chopping|Fällt|Coupant|Sta tagliando|Talando|Cortar lenha|Ścinać|Вырезание|Cortando|Houthakken|Hugga|Hugger|Fát vágni|Puunhakkuu
+|||||||||||||||
+RACE.DWARF.FEMALE_ADJECTIVE||Dwarven|zwergische|Naine|nana|Enana|De anã|Krasnoludzka|Гномий|Enânica|Dwergachtige|Dvärg-|Dverg|Törpe|kääpiöihin kuuluva
+RACE.DWARF.FEMALE_NOUN||Dwarf|Zwergin|Naine|Nana|Enana|Anã|Krasnoludka|Гномка|Anã|Dwerg|Dvärg|Dverg|Törpe|Kääpiö
+RACE.DWARF.FEMALE_PLURAL||Dwarves|Zwerge|Naines|Nane|Enanas|Anãs|Krasnoludki|Гномы|Anãs|Dwergen|Dvärgar|Dverger|Törpék|Kääpiöt
+RACE.DWARF.MALE_ADJECTIVE||Dwarven|zwergischer|Nain|nano|Enano|De anão|Krasnoludzki|Гномий|Enânico|Dwergachtige|Dvärg-|Dverg|Törpe|kääpiöihin kuuluva
+RACE.DWARF.MALE_NOUN|The male and female forms are only for languages that need them|Dwarf|Zwerg|Nain|Nano|Enano|Anão|Krasnolud|Гном|Anão|Dwerg|Dvärg|Dverg|Törpe|Kääpiö
+RACE.DWARF.MALE_PLURAL|Note that I'm going with Tolkein's spelling of “dwarves” rather than “dwarfs”|Dwarves|Zwerge|Nains|Nani|Enanos|Anões|Krasnoludy|Гномы|Anões|Dwergen|Dvärgar|Dverger|Törpék|Kääpiöt
+|||||||||||||||
+RESOURCE.GEM.NOUN||Gem|Edelstein|Gemme|Gemma|Gema|Joia|Klejnot|Самоцвет|de gema|Edelsteen|Ädelsten|Juvel|Drágakő|Jalokivi
+RESOURCE.GEM.PLURAL||Gems|Edelsteine|Gemmes|Gemme|Gemas|Joias|Klejnoty|Самоцветы|Gemas|Edelstenen|Ädelstenar|Juveler|Drágakövek|Jalokivet
+RESOURCE.GEMS.UNREFINED.NOUN||Uncut gem|Rohedelstein|Gemme brute|Gemma grezza|Gema en bruto|Joia bruta|Nieoszlifowany klejnot|Необработанный самоцвет|Gema bruta|Ruwe edelsteen|Oslipad ädelsten|Uslepen juvel|Csiszolatlan drágakő|Hiomaton jalokivi
+RESOURCE.GEMS.UNREFINED.PLURAL||Uncut gems|Rohedelsteine|Gemmes brutes|Gemme grezze|Gemas en bruto|Joias brutas|Nieoszlifowane klejnoty|Необработанные самоцветы|Gemas brutas|Ruwe edelstenen|Oslipade ädelstenar|Uslepne juveler|Csiszolatlan drágakövek|Hiomattomat jalokivet
+RESOURCE.LOGS.NOUN||Log|Stamm|Bûche|Tronco|Tronco|Tronco|Pień|Бревно|Tronco|Houtblok|Stock|Tømmerstokk|Farönk|Hirsi
+RESOURCE.LOGS.PLURAL||Logs|Stämme|Bûches|Tronchi|Troncos|Troncos|Pnie|Бревна|Troncos|Houtblokken|Stockar|Tømmerstokker|Farönkök|Hirret
+RESOURCE.METAL.INGOT.NOUN||Ingot|Barren|Lingot|Lingotto|Lingote|Lingote|Sztabka|Слиток|Lingote|Staaf|Tacka|Barre|Öntvény|Harkko
+RESOURCE.METAL.INGOT.PLURAL||Ingots|Barren|Lingots|Lingotti|Lingotes|Lingotes|Sztabki|Слитки|Lingotes|Staven|Tackor|Barrer|Öntvények|Harkot
+RESOURCE.ORE.UNREFINED.NOUN||Ore|Erzbrocken|Minerai|Minerale grezzo|Mineral|Minério|Ruda|Руда|Minério|Erts|Mineral|Malm|Érc|Malmi
+RESOURCE.ORE.UNREFINED.PLURAL||Ores|Erzbrocken|Minerais|Minerali grezzi|Minerales|Minérios|Rudy|Руды|Minérios|Ertsen|Mineraler|Malm|Ércek|Malmit
+RESOURCE.PLANKS.NOUN||Plank|Brett|Planche|Asse|Tabla|Tábua|Deska|Доска|Tábua|Plank|Planka|Planke|Deszka|Lankku
+RESOURCE.PLANKS.PLURAL||Planks|Bretter|Planches|Assi|Tablas|Tábuas|Deski|Доски|Tábuas|Planken|Plankor|Planker|Deszkák|Lankut
+RESOURCE.STONE.BLOCK.NOUN||Block|Block|Bloc|Blocco|Bloque|Bloco|Blok|Блок|Bloco|Blok|Block|Blokk|Kőtömb|Tiili
+RESOURCE.STONE.BLOCK.PLURAL||Blocks|Blöcke|Blocs|Blocchi|Bloques|Blocos|Bloki|Блоки|Blocos|Blokken|Block|Blokker|Kőtömbök|Tiilet
+RESOURCE.STONE.UNREFINED.NOUN||Rough stone boulder|Steinbrocken|Rocher brut|Blocco di pietra grezza|Peñasco|Pedregulho de pedra bruta|Nieociosany głaz|Грубый валун|Pedregulho de pedra bruta|Rotsblok|Grovt stenblock|Upolert kampestein|Csiszolatlan kőtömb|Kivilohkare
+RESOURCE.STONE.UNREFINED.PLURAL||Rough stone boulders|Steinbrocken|Rochers bruts|Blocchi di pietra grezza|Peñascos|Pedregulhos de pedra bruta|Nieociosane głazy|Грубые валуны|Pedregulhos de pedra bruta|Rotsblokken|Grova stenblock|Upolerte kampesteiner|Csiszolatlan kőtömbök|Kivilohkareet
+|||||||||||||||
+ROOMS.BEDROOM||Bedroom|Schlafzimmer|Chambre|Camera da letto|Dormitorio|Quarto|Sypialnia|Спальня|Dormitório|||||
+ROOMS.CARPENTRY_WORKSHOP||Carpentry workshop|Schreinerei|Menuiserie|Falegnameria|Taller de carpintería|Oficina de carpintaria|Warsztat stolarski|Мастерская плотника|Oficina de carpintaria|Timmerwerkplaats|Snickarbod|Snekkerverksted|Ács|Puusepän verstas
+ROOMS.FARM||Farm plot|Feld|Parcelle|Campo da coltivare|Huerto|Parcela de cultivo|Działka rolna|Огород|Fazenda|||||
+ROOMS.KITCHEN||Kitchen|Küche|Cuisine|Cucina|Cocina|Cozinha|Kuchnia|Кухня|Cozinha|||||
+ROOMS.MASONRY_WORKSHOP||Masonry workshop|Maurerei|Carrière|Cantiere|Taller de albañilería|Oficina de alvenaria|Warsztat murarski|Мастерская каменщика|Oficina de pedreiro|Steenhouwerij|Murarverkstad|Steinhuggerverksted|Kőfaragó|Kivenhakkaajan verstas
+ROOMS.PLACEHOLDER_METALWORKS||Placeholder metalworks|Platzhalter-Schlosserei|Ferronnerie provisoire|Fonderia segnaposto|Marcador de metalistería|Placeholder metalurgia|Tymczasowy warsztat metalurgii|Временная металлообработка|Metalúrgica provisória|||||
+ROOMS.SAWMILL||Sawmill|Sägewerk|Scierie|Segheria|Aserradero|Serraria|Tartak|Лесопилка|Madeireira|Houtzagerij|Såg|Sagbruk|Fűrészmalom|Saha
+ROOMS.STOCKPILE||Stockpile|Vorrat|Réserve|Deposito|Reservas|Armazém|Skład|Склад||Depot|Lager|Lager||Varasto
+ROOMS.STOCKPILES||Stockpiles|Lager|Réserves|Magazzini|Reservas|Reservas|Skład|Склады|Estocagens|||||
+ROOMS.FEASTING_HALL||Feasting hall|Speisesaal |Salle de festin|Sala delle feste|Comedor |Refeitório |Święto Hall|Праздничный зал|Refeitório |||||
+|||||||||||||||
+SEASON.AUTUMN||Autumn|Herbst|Automne|Autunno|Otoño|Outono|Jesień|Осень|Outono|Herfst|Höst|Høst|Ősz|Syksy
+SEASON.SPRING||Spring|Frühling|Printemps|Primavera|Primavera|Primavera|Wiosna|Весна|Primavera|Lente|Vår|Vår|Tavasz|Kevät
+SEASON.SUMMER||Summer|Sommer|Été|Estate|Verano|Verão|Lato|Лето|Verão|Zomer|Sommar|Sommer|Nyár|Kesä
+SEASON.WINTER||Winter|Winter|Hiver|Inverno|Invierno|Inverno|Zima|Зима|Inverno|Winter|Vinter|Vinter|Tél|Talvi
+|||||||||||||||
+SEED.BARLEY_SEED||Barley|Gersten|Orge|Orzo|de cebada|Cevada|Jęczmień|Ячмень|Cevada|||||
+SEED.CARROT_SEED||Carrot|Karotten|Carotte|Carota|de zanahoria|Cenoura|Marchewka|Морковь|Cenoura|||||
+SEED.CORN_SEED||Corn|Mais|Maïs|Mais|de maíz|Milho|Kukurydza|Кукуруза|Milho|||||
+SEED.HOPS_SEED||Hops|Hopfen|Houblon|Luppolo|de lúpulo|Lúpulo|Chmiel|Хмель|Lúpulo|||||
+SEED.POTATO_SEED||Potato|Kartoffel|Pomme de terre|Patata|de patata|Batata|Ziemniak|Картофель|Batata|||||
+SEED.TOMATO_SEED||Tomato|Tomaten|Tomate|Pomodoro|de tomate|Tomate|Pomidor|Помидоры|Tomate|||||
+SEED.WHEAT_SEED||Wheat|Weizen|Blé|Grano|de trigo|Trigo|Pszenica|Пшеница|Trigo|||||
+|||||||||||||||
+SHRUB.DESCRIPTION|Shrub or bush should do|Bush|Büsche|Arbuste|Cespuglio|Arbusto|Arbusto|Krzak|Куст|Arbusto|Struikgewas|Buske|Busk|Bokor|Pensas
+|||||||||||||||
+STOCKPILE.GRANARY||Granary|Getreidespeicher|Grange|Granaio|Granero|Celeiro|Spichlerz|Амбар|Celeiro|||||
+STOCKPILE.PANTRY||Pantry|Vorratskammer|Cellier|Dispensa|Despensa|Despensa|Spiżarnia|Кладовая|Despensa|||||
+STOCKPILE.RESOURCES||Resources|Materiallager|Ressources|Risorse|Recursos|Recursos|Zasoby|Ресурсы|Recursos|||||
+STOCKPILE.TOOLS||Tools|Werkzeuglager|Outils|Attrezzi|Herramientas|Ferramentas|Narzędzia|Инструменты|Ferramentas|||||
+|||||||||||||||
+STONE.BASALT.ADJECTIVE||Basalt|Basalt|en basalte|di basalto|De basalto|De basalto|Bazaltowy|(базальт)|de basalto|Basalten|Basalt-|Basalt|Bazalt|Basalttinen
+STONE.BASALT.NOUN||Basalt|Basalt|Basalte|Basalto|Basalto|Basalto|Bazalt|Базальт|de basalto|Basalt|Basalt|Basalt|Bazalt|Basaltti
+STONE.DOLOSTONE.ADJECTIVE||Dolostone|Dolomit|en dolomie|di roccia dolomitica|De dolomía|De dolomito|Dolomitowy|(доломитид)|de dolomita|Dolomieten|Dolomit-|Dolomitt|Dolomit|Dolomiittikivinen
+STONE.DOLOSTONE.NOUN||Dolostone|Dolomit|Dolimie|Roccia dolomitica|Dolomía|Dolomito|Dolomit|Доломитид|de dolomita|Dolomiet|Dolomit|Dolomitt|Dolomit|Dolomiittikivi
+STONE.GRANITE.ADJECTIVE||Granite|Granit|en granite|di granito|De granito|De granito|Granitowy|(гранит)|de granito|Granieten|Granit-|Granitt|Gránit|Graniittinen
+STONE.GRANITE.NOUN||Granite|Granit|Granite|Granito|Granito|Granito|Granit|Гранит|de granito|Graniet|Granit|Granitt|Gránit|Graniitti
+STONE.LIMESTONE.ADJECTIVE||Limestone|Kalkstein|en calcaire|di pietra calcarea|De caliza|De calcário|Wapienny|(известняк)|de calcário|Kalkstenen|Kalkstens-|Kalkstein|Mészkő|Kalkkikivinen
+STONE.LIMESTONE.NOUN||Limestone|Kalkstein|Calcaire|Pietra calcarea|Caliza|Calcário|Wapień|Известняк|de calcário|Kalksteen|Kalksten|Kalkstein|Mészkő|Kalkkikivi
+STONE.MARBLE.ADJECTIVE||Marble|Marmor|en marbre|di marmo|De mármol|De mármore|Marmurowy|(мрамор)|de mármore|Marmeren|Marmor-|Marmor|Márvány|Marmorinen
+STONE.MARBLE.NOUN||Marble|Marmor|Marbre|Marmo|Mármol|Mármore|Marmur|Мрамор|de mármore|Marmer|Marmor|Marmor|Márvány|Marmori
+STONE.SANDSTONE.ADJECTIVE||Sandstone|Sandstein|en grès|di arenaria|De arenisca|De arenito|Piaskowcowy|(песчаник)|de arenito|Zandstenen|Sandstens-|Sandstein|Homokkő|Hiekkakivinen
+STONE.SANDSTONE.NOUN||Sandstone|Sandstein|Grès|Arenaria|Arenisca|Arenito|Piaskowiec|Песчаник|de arenito|Zandsteen|Sandsten|Sandstein|Homokkő|Hiekkakivi
+STONE.SHALE.ADJECTIVE||Shale|Tonstein|en schiste|di scisto|De equisto|De xisto|Ilasty|(глинистый сланец)|de xisto|Schalie|Lerskiffer-|Leirskifer|Agyagpala|Liuskakivinen
+STONE.SHALE.NOUN||Shale|Tonstein|Schiste|Scisto|Equisto|Xisto|Iłołupek|Глинистый сланец|de xisto|Schalie|Lerskiffer|Leirskifer|Agyagpala|Liuskakivi
+STONE.SLATE.ADJECTIVE||Slate|Schiefer|en ardoise|di ardesia|De pizarra|De ardósia|Łupkowy|(аспидный сланец)|de ardósia|Leistenen|Skiffer-|Skifer|Pala|Savikivinen
+STONE.SLATE.NOUN||Slate|Schiefer|Ardoise|Ardesia|Pizarra|Ardósia|Łupek|Аспидный сланец|de ardósia|Leisteen|Skiffer|Skifer|Pala|Savikivi
+|||||||||||||||
+TOOL.AXE.NOUN||Axe|Axt|Hâche|Ascia|Hacha|Machado|Siekiera|Топор|Machado|Bijl|Yxa|Øks|Balta|Kirves
+TOOL.CHISEL.NOUN||Chisel|Meißel|Burin|Scalpello |Cincel|Formão|Dłuto|Резец|Cinzel|Beitel|Mejsel|Meisel|Véső|Taltta
+TOOL.FISHING.ROD.NOUN||Fishing rod|Angelrute|Canne à pêche|Canna da pesca|Caña de pescar|Cana de pesca|Wędka|Удочка|Vara de pescar|Hengel|Fiskespö|Fiskestang|Horgászbot|Onki
+TOOL.KITCHEN.KNIFE.NOUN||Kitchen knife|Küchenmesser|Couteau de cuisine|Coltello da cucina|Cuchillo de cocina|Faca de cozinha|Nóż kuchenny|Кухонный нож|Faca de cozinha|Keukenmes|Kökskniv|Kjøkkenkniv|Konyhakés|Keittiöveitsi
+TOOL.LARGE.HAMMER.NOUN||Large hammer|Vorschlaghammer|Gros marteau|Martello grande|Martillo grande|Martelo grande|Duży młot|Молот|Martelo grande|Grote hamer|Stor hammare|Stor hammer|Pöröly|Leka
+TOOL.PICKAXE.NOUN||Pickaxe|Spitzhacke|Pioche|Piccone|Pico|Picareta|Kilof|Кирка|Picareta|Houweel|Hacka|Hakke|Csákány|Hakku
+TOOL.PLANE.NOUN|A carpenter's plane|Plane|Hobel|Rabot|Pialla|Garlopa|Plaina|Hebel|Рубанок|Plaina|Schaaf|Hyvel|Høvel|Gyalu|Höylä
+TOOL.ROLLING.PIN.NOUN||Rolling pin|Nudelholz|Rouleau à pâtisserie|Mattarello|Rodillo|Rolo da massa|Wałek do ciasta|Скалка|Rolo de massa|Deegroller|Brödkavel|Kjevle|Nyújtófa|Kaulin
+TOOL.SAW.NOUN|A carpenter's saw|Saw|Säge|Scie|Seghetto|Sierra|Serrote|Piła|Пила|Serrote|Zaag|Såg|Sag|Fűrész|Saha
+TOOL.SMALL.HAMMER.NOUN||Hammer|Hammer|Marteau|Martello|Martillo|Martelo|Młot|Молоток|Martelo|Hamer|Hammare|Hammer|Kalapács|Vasara
+TOOL.TONGS.NOUN|A blacksmith's tongs|Tongs|Zange|Pinces|Tenaglie|Tenazas|Tenazes|Cęgi|Клещи|Tenazes|Tang|Täng|Tang|Fogó|Pihdit
+||||||||||||Tänger|||
+TREE.DESCRIPTION|E.g. “Oak tree”|{{materialType.noun}} tree|{{materialType}}|{{materialType.noun}}|Pianta {{materialType.noun}}|{{materialType.noun}}|Árvore de {{materialType.noun}}|Drzewo {{materialType.noun}}|{{materialType.noun}}|árvore de {{materialType.noun}}|||||
+|||||||||||{{materialType.noun}} boom||Tre – {{materialType.noun}}|{{materialType.noun}} fa|{{materialType.noun}}
+VEGETABLE.BARLEY||Barley|Gerste|Orge|Orzo|de cebada|Cevada|Jęczmień|Ячмень|Cevada|||||
+VEGETABLE.BARLEY.PLURAL||Barley|Gerste|Orge|Orzo|de cebada|Cevada|Jęczmień|Ячмень|Cevada|||||
+VEGETABLE.CARROT||Carrot|Karotte|Carotte|Carota|de zanahoria|Cenoura|Marchewka|Морковина|Cenoura|||||
+VEGETABLE.CARROT.PLURAL||Carrots|Karotten|Carottes|Carote|Zanahorias|Cenouras|Marchewki|Морковины|Cenouras|||||
+VEGETABLE.CORN||Sweetcorn|Mais|Maïs doux|Mais|Maíz|Milho doce|Słodka kukurydza|Сахарная кукуруза|Milho verde|||||
+VEGETABLE.CORN.PLURAL||Sweetcorn|Mais|Maïs doux|Mais|Maíz|Milho doce|Słodka kukurydza|Сахарная кукуруза|Milho verde|||||
+VEGETABLE.HOPS||Hops|Hopfen|Houblon|Luppolo|de lúpulo|Lúpulo|Chmiel|Хмель|Lúpulo|||||
+VEGETABLE.HOPS.PLURAL||Hops|Hopfen|Houblon|Luppolo|de lúpulo|Lúpulo|Chmiel|Хмель|Lúpulo|||||
+VEGETABLE.POTATO||Potato|Kartoffel|Pomme de terre|Patata|de patata|Batata|Ziemniak|Картофелина|Batata|||||
+VEGETABLE.POTATO.PLURAL||Potatoes|Kartoffeln|Pommes de terre|Patate|Patatas|Batatas|Ziemniaki|Картофелины|Batatas|||||
+VEGETABLE.TOMATO||Tomato|Tomate|Tomate|Pomodoro|de tomate|Tomate|Pomidor|Помидор|Tomate|||||
+VEGETABLE.TOMATO.PLURAL||Tomatoes|Tomaten|Tomates|Pomodori|Tomates|Tomates|Pomidory|Помидоры|Tomates|||||
+VEGETABLE.WHEAT||Wheat|Weizen|Blé|Grano|de trigo|Trigo|Pszenica|Пшеница|Trigo|||||
+VEGETABLE.WHEAT.PLURAL||Wheat|Weizen|Blé|Grano|de trigo|Trigo|Pszenica|Пшеница|Trigo|||||
+|||||||||||||||
+FOODSTUFF.BREAD||Bread|Brot|Pain :|Pane|Pan|Pão|Chleb|Хлеб:|Pão|||||
+|||||||||||||||
+INGREDIENT.FLOUR||Flour|Mehl|Farine|Farina|Harina|Farinha|Mąka|мука|Farinha|||||
+INGRDIENT.DOUGH|To be combined with the above as “bread dough”|Dough|Teig|Pâte|Impasto|Masa|Massa|Ciasto|тесто|Massa|||||
+INGREDIENT.LOAF|To be combined with the above as “bread loaf”|Loaf|Laib|Miche|Filone|Hogaza|Pão de forma|Bochenek|буханка|Fatia|||||
+INGREDIENT.LOAF.PLURAL||Loaves|Laibe|Miches|Filoni|Hogazas|Pães de forma|Bochenki|буханки|Fatias|||||
+|||||||||||||||
+WALL.DESCRIPTION|E.g. “Granite rock wall”, “Granite smooth stone wall”|{{materialType.adjective}} {{wallType.noun}}|{{wallType.noun}} aus {{materialType}}|{{wallType.noun}} {{materialType.adjective}}|{{wallType.noun}} {{materialType.adjective}}|{{wallType.noun}} {{materialType.adjective}}|{{materialType.adjective}} {{wallType.noun}}|{{wallType.noun}}: {{materialType.adjective}}|{{wallType.noun}} {{materialType.adjective}}|{{wallType.noun}} {{materialType.adjective}}|{{materialType.adjective}} {{wallType.noun}}||{{wallType.noun}} av {{materialType.adjective}}||{{materialType.adjective}} {{wallType.noun}}
+WALL.GEMS.NOUN||Gems|Edelstein|Mur|Parete|Muro|Joias|Klejnoty|Самоцветы|Gemas|{{BLANK}}|Ädelstenar|Juveler|Drágakövek|{{BLANK}}
+WALL.ORE.NOUN||Ore|Erz|Mur en|Parete|Muro|Minério|Ruda|Руда|Minério|{{BLANK}}|Malm|Malm|Érc|{{BLANK}}
+WALL.ROUGH_STONE.NOUN||Rock wall|Steinwand|Mur de pierre|Parete di roccia|Muro rocoso|Muro de pedra|Skalna ściana|Каменная стена|Parede de rocha|Stenen muur|Stenmur|Steinmur|Kő fal|Kiviseinä
+WALL.STONE_BLOCK.NOUN||Smooth stone wall|Glatte Steinwand|Paroi lisse|Parete di pietra liscia|Muro pulido|Muro de pedra suave|Gładka skalna ściana|Стена из гладкого камня|Parede de rocha polida|Gladde stenen muur|Slät stenmur|Glatt steinmur|Minőségi kő fal|Laattaseinä
+WALL.WOODEN.NOUN||Wood wall|Holzwand|Mur|Parete di legno|Muro de madera|Muro de madeira|Drewniana ściana|Деревянная стена|Parede de madeira|Houten wand|Trävägg|Tremur|Fa fal|Puuseinä
+|||||||||||||||
+WOOD.BEECH.ADJECTIVE||Beech|Buche|en hêtre|di faggio|De haya|De faia|Bukowe|(бук)|de faia|Beukenhouten|Bok-|Bøk|Bükk|Pyökistä tehty
+WOOD.BEECH.NOUN||Beech|Buche|Hêtre|Faggio|Haya|Faia|Buk|Бук|de faia|Beukenhout|Bok|Bøk|Bükk|Pyökki
+WOOD.BIRCH.ADJECTIVE||Birch|Birke|en bouleau|di betulla|De abedul|De bétula|Brzozowe|(береза)|de bétula|Berkenhouten|Björk-|Bjørk|Nyír|Koivusta tehty
+WOOD.BIRCH.NOUN||Birch|Birke|Bouleau|Betulla|Abedul|Bétula|Brzoza|Береза|de bétula|Berkenhout|Björk|Bjørk|Nyír|Koivu
+WOOD.FIR.ADJECTIVE||Fir|Tanne|en sapin|di abete|De abeto|De abeto|Jodłowe|(мех)|de abeto|Dennenhouten|Gran-|Gran|Vörös fenyő |Kuusesta tehty
+WOOD.FIR.NOUN||Fir|Tanne|Sapin|Abete|Abeto|Abeto|Jodła|Мех|de abeto|Dennenhout|Gran|Gran|Vörös fenyő |Kuusi
+WOOD.MAPLE.ADJECTIVE||Maple|Ahorn|en érable|di acero|De arce|De ácer|Klonowe|(клен)|de bordo|Esdoornhouten|Lönn-|Lønn|Juhar|Vaahterasta tehty
+WOOD.MAPLE.NOUN||Maple|Ahorn|Érable|Acero|Arce|Ácer|Klon|Клен|de bordo|Esdoornhout|Lönn|Lønn|Juhar|Vaahtera
+WOOD.OAK.ADJECTIVE||Oaken|Eiche|en chêne|di quercia|De roble|De carvalho|Dębowe|(дуб)|de carvalho|Eikenhouten|Ek-|Eik|Tölgy|Tammesta tehty
+WOOD.OAK.NOUN||Oak|Eiche|Chêne|Quercia|Roble|Carvalho|Dąb|Дуб|Carvalho|Eikenhout|Ek|Eik|Tölgy|Tammi
+WOOD.PINE.ADJECTIVE||Pine|Kiefer|en pin|di pino|De pino|De pinheiro|Sosnowe|(сосна)|de pinheiro|Vurenhouten|Tall-|Furu|Ezüst fenyő |Männystä tehty
+WOOD.PINE.NOUN||Pine|Kiefer|Pin|Pino|Pino|Pinheiro|Sosna|Сосна|de pinheiro|Vurenhout|Tall|Furu|Ezüst fenyő |Mänty

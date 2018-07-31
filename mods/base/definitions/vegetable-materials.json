@@ -1,0 +1,37 @@
+[
+  {
+    "materialName": "Wheat",
+    "materialType": "VEGETABLE",
+    "colorCode": "#ead025"
+  },
+  {
+    "materialName": "Barley",
+    "materialType": "VEGETABLE",
+    "colorCode": "#e29a39"
+  },
+  {
+    "materialName": "Tomato",
+    "materialType": "VEGETABLE",
+    "colorCode": "#bf1f20"
+  },
+  {
+    "materialName": "Potato",
+    "materialType": "VEGETABLE",
+    "colorCode": "#ab8f59"
+  },
+  {
+    "materialName": "Carrot",
+    "materialType": "VEGETABLE",
+    "colorCode": "#ff7d1f"
+  },
+  {
+    "materialName": "Hops",
+    "materialType": "VEGETABLE",
+    "colorCode": "#9dd248"
+  },
+  {
+    "materialName": "Corn",
+    "materialType": "VEGETABLE",
+    "colorCode": "#d4ea58"
+  }
+]
