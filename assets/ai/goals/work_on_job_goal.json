@@ -8,22 +8,22 @@
           "type": "NEED",
           "need": "FOOD",
           "operator": "GREATER_THAN_OR_EQUAL_TO",
-          "value": 15
+          "value": -99999
         },
         {
           "type": "NEED",
           "need": "DRINK",
           "operator": "GREATER_THAN_OR_EQUAL_TO",
-          "value": 15
+          "value": -99999
         },
         {
           "type": "NEED",
           "need": "SLEEP",
           "operator": "GREATER_THAN_OR_EQUAL_TO",
-          "value": 15
+          "value": -99999
         }
       ],
-      "priority": "LOWEST",
+      "priority": "NEED_URGENT",
       "scheduleCategory": "ANY"
     }
   ],

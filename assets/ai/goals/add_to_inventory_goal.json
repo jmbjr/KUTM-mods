@@ -1,6 +1,6 @@
 {
   "name": "Add to inventory goal",
-  "expiryHours": 12,
+  "expiryHours": 99999,
   "i18nDescription": "GOAL.ADD_TO_INVENTORY.DESCRIPTION",
   "selectors": [
     {
@@ -10,7 +10,7 @@
           "memoryType": "LACKING_REQUIRED_ITEM"
         }
       ],
-      "priority": "JOB_NORMAL",
+      "priority": "NEED_URGENT",
       "scheduleCategory": "WORK"
     }
   ],
