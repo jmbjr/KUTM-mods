@@ -171,7 +171,7 @@
   "equippedWhileWorkingOnJob" : true,
   "hoursInInventoryUntilUnused" : 30.0,
   "relatedCraftingTypeNames" : [ ],
-  "stockpileGroupName" : "Resources",
+  "stockpileGroupName" : "Stones",
   "tags" : { },
   "i18nKey" : "RESOURCE.STONE.UNREFINED"
 }, {
@@ -188,7 +188,7 @@
   "equippedWhileWorkingOnJob" : true,
   "hoursInInventoryUntilUnused" : 30.0,
   "relatedCraftingTypeNames" : [ ],
-  "stockpileGroupName" : "Resources",
+  "stockpileGroupName" : "Logs",
   "tags" : { },
   "i18nKey" : "RESOURCE.LOGS"
 }, {
@@ -205,7 +205,7 @@
   "equippedWhileWorkingOnJob" : true,
   "hoursInInventoryUntilUnused" : 30.0,
   "relatedCraftingTypeNames" : [ ],
-  "stockpileGroupName" : "Resources",
+  "stockpileGroupName" : "Ores",
   "tags" : { },
   "i18nKey" : "RESOURCE.ORE.UNREFINED"
 }, {
@@ -239,7 +239,7 @@
   "equippedWhileWorkingOnJob" : true,
   "hoursInInventoryUntilUnused" : 30.0,
   "relatedCraftingTypeNames" : [ ],
-  "stockpileGroupName" : "Resources",
+  "stockpileGroupName" : "Gems",
   "tags" : { },
   "i18nKey" : "RESOURCE.GEMS.UNREFINED"
 }, {

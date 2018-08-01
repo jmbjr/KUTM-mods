@@ -320,10 +320,14 @@ SEED.WHEAT_SEED|Wheat||Weizen|Blé|Grano|de trigo|Trigo|Trigo|Pszenica|Пшен�
 
 SHRUB.DESCRIPTION|Bush|Shrub or bush should do|Büsche|Arbuste|Cespuglio|Arbusto|Arbusto|Arbusto|Krzak|Куст|||||||
 
+STOCKPILE.GEMS|Gems||Edelsteine|Gemmes|Gemme|Gemas|Joias|Gemas|Klejnoty|Самоцветы|||||||
 STOCKPILE.GRANARY|Granary||Getreidespeicher|Grange|Granaio|Granero|Celeiro|Celeiro|Spichlerz|Амбар|||||||
+STOCKPILE.LOGS|Logs||Stämme|Bûches|Tronchi|Troncos|Troncos|Troncos|Pnie|Бревна|||||||
+STOCKPILE.ORES|Ores||Erzbrocken|Minerais|Minerali grezzi|Minerales|Minérios|Minérios|Rudy|Руды|||||||
 STOCKPILE.PANTRY|Pantry||Vorratskammer|Cellier|Dispensa|Despensa|Despensa|Despensa|Spiżarnia|Кладовая|||||||
 STOCKPILE.RESOURCES|Resources||Materiallager|Ressources|Risorse|Recursos|Recursos|Recursos|Zasoby|Ресурсы|||||||
-STOCKPILE.TOOLS|Tools||Werkzeuglager|Outils|Attrezzi|Herramientas|Ferramentas|Ferramentas|Narzędzia|Инструменты|||||||
+STOCKPILE.STONES|Rough stone boulders||Steinbrocken|Rochers bruts|Blocchi di pietra grezza|Peñascos|Pedregulhos de pedra bruta|Pedregulhos de pedra bruta|Nieociosane głazy|Грубые валуны|||||||
+STOCKPILE.TOOLS|Tools||Werkzeuglager|Outils|Attrezzi|Herramientas|Ferramentas|Ferramentas|Narzędzia|Инструменты||||||
 
 STONE.BASALT.ADJECTIVE|Basalt||Basalt|en basalte|di basalto|De basalto|De basalto|de basalto|Bazaltowy|(базальт)|||||||
 STONE.BASALT.NOUN|Basalt||Basalt|Basalte|Basalto|Basalto|Basalto|de basalto|Bazalt|Базальт|||||||

@@ -10,4 +10,16 @@
 }, {
   "name" : "Pantry",
   "stockpileGroupId" : 90
+}, {
+  "name" : "Logs",
+  "stockpileGroupId" : 91
+}, {
+  "name" : "Stones",
+  "stockpileGroupId" : 92
+}, {
+  "name" : "Ores",
+  "stockpileGroupId" : 93
+}, {
+  "name" : "Gems",
+  "stockpileGroupId" : 94
 } ]

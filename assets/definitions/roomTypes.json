@@ -39,7 +39,46 @@
     },
     "furnitureNames": []
   },
-
+  {
+    "roomName": "STOCKPILE_LOGS",
+    "i18nKey": "STOCKPILE.LOGS",
+    "colorCode": "#acb367",
+    "iconName": "log",
+    "tags": {
+      "STOCKPILE": ["Logs"]
+    },
+    "furnitureNames": []
+  },
+  {
+    "roomName": "STOCKPILE_STONES",
+    "i18nKey": "STOCKPILE.STONES",
+    "colorCode": "#c9c9c9",
+    "iconName": "stone-pile",
+    "tags": {
+      "STOCKPILE": ["Stones"]
+    },
+    "furnitureNames": []
+  },
+  {
+    "roomName": "STOCKPILE_ORES",
+    "i18nKey": "STOCKPILE.ORES",
+    "colorCode": "#8e8e8e",
+    "iconName": "black-bar",
+    "tags": {
+      "STOCKPILE": ["Ores"]
+    },
+    "furnitureNames": []
+  },
+  {
+    "roomName": "STOCKPILE_GEMS",
+    "i18nKey": "STOCKPILE.GEMS",
+    "colorCode": "#4b2d72",
+    "iconName": "gems",
+    "tags": {
+      "STOCKPILE": ["Gems"]
+    },
+    "furnitureNames": []
+  },
   {
     "roomName": "FARM_PLOT",
     "i18nKey": "ROOMS.FARM",
