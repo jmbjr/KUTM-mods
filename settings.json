@@ -1,0 +1,6 @@
+{
+  "_notes": "You can change the windowed setting to true or false, and set the resolutionWidth and resolutionHeight to DESKTOP or a number of pixels e.g. 1920",
+  "windowed": false,
+  "resolutionWidth": "DESKTOP",
+  "resolutionHeight": "DESKTOP",
+}
