@@ -51,8 +51,8 @@ FURNITURE.FEASTING_TABLE|Feasting table|A very large table for a feast|Festtafel
 FURNITURE.KITCHEN_WORKTOP|Kitchen worktop|Simple piece of furniture in a kitchen used to hold ingredients on top of it|Küchentisch|Plan de travail|Piano di lavoro da cucina|Mesa para cocinar|Bancada de cozinha|Bancada de cozinha|Blat kuchenny|Кухонная столешница|||||||
 FURNITURE.LANTERN|Lantern||Laterne|Lanterne|Lanterna|Farol|Lanterna|Lanterna|Latarnia|Фонарь|||||||
 FURNITURE.LARGE_TABLE|Large table||Esstisch|Grande table|Tavolo grande|Mesa grande|Mesa grande|Mesa grande|Duży stół|Большой стол|||||||
-FURNITURE.PLACEHOLDER_SMELTER|Placeholder smelter||Platzhalter-Schmelzer|Fonderie provisoire|Fucina segnaposto|Marcador de fundición|Placeholder fundição|Fundidor provisório|Tymczasowa huta|Временная плавильня|||||||
-FURNITURE.PLACEHOLDER_SMITHY|Placeholder smithy||Platzhalter-Schmiede|Forge provisoire|Forgia segnaposto|Marcador de forja|Placeholder ferraria|Forja provisória|Tymczasowa kuźnia|Временная кузница|||||||
+FURNITURE.SMELTER|smelter||Platzhalter-Schmelzer|Fonderie provisoire|Fucina segnaposto|Marcador de fundición|fundição|Fundidor provisório|Tymczasowa huta|Временная плавильня|||||||
+FURNITURE.SMITHY|smithy||Platzhalter-Schmiede|Forge provisoire|Forgia segnaposto|Marcador de forja|ferraria|Forja provisória|Tymczasowa kuźnia|Временная кузница|||||||
 FURNITURE.SERVING_TABLE|Serving table|A table used to hold food for serving|Serviertisch|Buffet|Tavolo di servizio|Mesa para servir|Mesa auxiliar|Mesa de refeições|Stół do podawania posiłków|Сервировочный стол|||||||
 FURNITURE.SINGLE_BED|Bed||Bett|Lit|Letto|Cama|Cama|Cama|Łóżko|Кровать|||||||
 FURNITURE.SINGLE_DOOR|Door||Tür|Porte|Porta|Puerta|Porta|Porta|Drzwi|Дверь|||||||
@@ -300,7 +300,7 @@ ROOMS.FARM|Farm plot||Feld|Parcelle|Campo da coltivare|Huerto|Parcela de cultivo
 ROOMS.FEASTING_HALL|Feasting hall||Speisesaal |Salle de festin|Sala delle feste|Comedor |Refeitório |Refeitório |Święto Hall|Праздничный зал|||||||
 ROOMS.KITCHEN|Kitchen||Küche|Cuisine|Cucina|Cocina|Cozinha|Cozinha|Kuchnia|Кухня|||||||
 ROOMS.MASONRY_WORKSHOP|Masonry workshop||Maurerei|Carrière|Cantiere|Taller de albañilería|Oficina de alvenaria|Oficina de pedreiro|Warsztat murarski|Мастерская каменщика|||||||
-ROOMS.PLACEHOLDER_METALWORKS|Placeholder metalworks||Platzhalter-Schlosserei|Ferronnerie provisoire|Fonderia segnaposto|Marcador de metalistería|Placeholder metalurgia|Metalúrgica provisória|Tymczasowy warsztat metalurgii|Временная металлообработка|||||||
+ROOMS.METALWORKS|metalworks||Platzhalter-Schlosserei|Ferronnerie provisoire|Fonderia segnaposto|Marcador de metalistería|metalurgia|Metalúrgica provisória|Tymczasowy warsztat metalurgii|Временная металлообработка|||||||
 ROOMS.SAWMILL|Sawmill||Sägewerk|Scierie|Segheria|Aserradero|Serraria|Madeireira|Tartak|Лесопилка|||||||
 ROOMS.STOCKPILE|Stockpile||Vorrat|Réserve|Deposito|Reservas|Armazém||Skład|Склад|||||||
 ROOMS.STOCKPILES|Stockpiles||Lager|Réserves|Magazzini|Reservas|Reservas|Estocagens|Skład|Склады|||||||

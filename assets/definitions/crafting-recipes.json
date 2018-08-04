@@ -168,7 +168,7 @@
   },
 
   {
-    "recipeName": "Smelt iron (placeholder)",
+    "recipeName": "Smelt iron",
     "i18nKey": "CRAFT.SMELTING",
     "craftingTypeName": "SMELTING",
     "input": [
@@ -188,7 +188,7 @@
     "itemTypeRequiredName": "Tool-Tongs"
   },
   {
-    "recipeName": "Smelt tin (placeholder)",
+    "recipeName": "Smelt tin",
     "i18nKey": "CRAFT.SMELTING",
     "craftingTypeName": "SMELTING",
     "input": [
@@ -208,7 +208,7 @@
     "itemTypeRequiredName": "Tool-Tongs"
   },
   {
-    "recipeName": "Smelt copper from native (placeholder)",
+    "recipeName": "Smelt copper from native",
     "i18nKey": "CRAFT.SMELTING",
     "craftingTypeName": "SMELTING",
     "input": [
@@ -228,7 +228,7 @@
     "itemTypeRequiredName": "Tool-Tongs"
   },
   {
-    "recipeName": "Smelt copper from malachite (placeholder)",
+    "recipeName": "Smelt copper from malachite",
     "i18nKey": "CRAFT.SMELTING",
     "craftingTypeName": "SMELTING",
     "input": [
@@ -248,7 +248,7 @@
     "itemTypeRequiredName": "Tool-Tongs"
   },
   {
-    "recipeName": "Smelt gold (placeholder)",
+    "recipeName": "Smelt gold",
     "i18nKey": "CRAFT.SMELTING",
     "craftingTypeName": "SMELTING",
     "input": [
@@ -268,7 +268,7 @@
     "itemTypeRequiredName": "Tool-Tongs"
   },
   {
-    "recipeName": "Smelt silver from Galena (placeholder)",
+    "recipeName": "Smelt silver from Galena",
     "i18nKey": "CRAFT.SMELTING",
     "craftingTypeName": "SMELTING",
     "input": [
@@ -288,7 +288,7 @@
     "itemTypeRequiredName": "Tool-Tongs"
   },
   {
-    "recipeName": "Smelt silver from native (placeholder)",
+    "recipeName": "Smelt silver from native",
     "i18nKey": "CRAFT.SMELTING",
     "craftingTypeName": "SMELTING",
     "input": [

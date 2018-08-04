@@ -239,8 +239,8 @@
   },
   "tags" : { }
 }, {
-  "name" : "PLACEHOLDER_SMITHY",
-  "i18nKey" : "FURNITURE.PLACEHOLDER_SMITHY",
+  "name" : "SMITHY",
+  "i18nKey" : "FURNITURE.SMITHY",
   "categoryName" : "TABLE",
   "defaultLayoutName" : "2x3L3R",
   "colorCode" : "#666666",
@@ -289,8 +289,8 @@
   },
   "tags" : { }
 }, {
-  "name" : "PLACEHOLDER_SMELTER",
-  "i18nKey" : "FURNITURE.PLACEHOLDER_SMELTER",
+  "name" : "SMELTER",
+  "i18nKey" : "FURNITURE.SMELTER",
   "categoryName" : "TABLE",
   "defaultLayoutName" : "3x2",
   "colorCode" : "#d44545",

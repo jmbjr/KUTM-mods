@@ -118,13 +118,13 @@
     ]
   },
   {
-    "roomName": "PLACEHOLDER_METALWORKS",
-    "i18nKey": "ROOMS.PLACEHOLDER_METALWORKS",
+    "roomName": "METALWORKS",
+    "i18nKey": "ROOMS.METALWORKS",
     "colorCode": "#8e8e8e",
     "iconName": "black-bar",
     "furnitureNames": [
-      "PLACEHOLDER_SMELTER",
-      "PLACEHOLDER_SMITHY"
+      "SMELTER",
+      "SMITHY"
     ]
   },
   {
