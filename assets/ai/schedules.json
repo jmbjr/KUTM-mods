@@ -27,7 +27,7 @@
       "22": ["SLEEP", "FREE_TIME"],
       "23": ["SLEEP"]
     }
-  }, 
+  },
   {
     "name": "Noble Schedule",
     "hourlyCategories": {

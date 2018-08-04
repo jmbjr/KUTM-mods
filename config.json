@@ -4,6 +4,6 @@
   ],
   "mainClass": "technology.rocketjump.undermount.launcher.DesktopLauncher",
   "vmArgs": [
-    "-Xms1024m"
+    "-Xms1200m"
   ]
 }
