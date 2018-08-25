@@ -5,6 +5,9 @@
   "Resource-Planks": {
     "fixedAmount": 120
   },
+  "Resource-Discs": {
+    "perSettler": 100
+  },
   "Resource-Stone-Block": {
     "fixedAmount": 240
   },
@@ -25,5 +28,5 @@
   },
   "Product-Cauldron": {
     "perSettler": 0.1
-  }
+  },
 }

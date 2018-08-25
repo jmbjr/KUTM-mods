@@ -60,6 +60,7 @@ FURNITURE.SINGLE_DOOR_FRAME|Door frame||Türrahmen|Encadrement de porte|Telaio p
 FURNITURE.SMALL_TABLE|Small table||Tisch|Petite table|Tavolo piccolo|Mesa pequeña|Mesa pequena|Mesa pequena|Mały stół|Маленький стол|||||||
 FURNITURE.STONEMASON_WORKBENCH|Stonemason workbench||Steinmetzstation|Établi de tailleur de pierre|Banco da tagliapietre|Mesa de trabajo de albañil|Bancada de trabalho de cantaria|Bancada de pedreiro|Stół kamieniarza|Верстак каменщика|||||||
 FURNITURE.STOOL|Stool||Hocker|Tabouret|Sgabello|Taburete|Banco|Banqueta|Stołek|Табурет|||||||
+FURNITURE.THING|Thing|A cool thing!|Thing|Thing|Thing|Thing|Thing|Thing|Thing|Thing|||||||
 FURNITURE.WATER_BARREL|Water barrel||Wasserfass|Tonneau à eau|Barile d'acqua|Barril de agua|Barril de água|Barril de água|Beczka na wodę|Бочка для воды|||||||
 FURNITURE.WOODCUTTERS_BENCH|Woodcutting bench||Holzfällerstation|Établi de scieur|Banco da taglialegna|Soporte para cortar madera|Bancada de corte de lenha|Bancada de madeireiro|Stół do cięcia drewna|Верстак резчика по дереву|||||||
 
@@ -277,6 +278,8 @@ RACE.DWARF.MALE_ADJECTIVE|Dwarven||zwergischer|Nain|nano|Enano|De anão|Enânico
 RACE.DWARF.MALE_NOUN|Dwarf|The male and female forms are only for languages that need them|Zwerg|Nain|Nano|Enano|Anão|Anão|Krasnolud|Гном|||||||
 RACE.DWARF.MALE_PLURAL|Dwarves|Note that I'm going with Tolkein's spelling of “dwarves” rather than “dwarfs”|Zwerge|Nains|Nani|Enanos|Anões|Anões|Krasnoludy|Гномы|||||||
 
+RESOURCE.DISCS.NOUN|Disc||Disc|Disc|Disc|Disc|Disc|Disc|Disc|Disc|||||||
+RESOURCE.DISCS.PLURAL|Discs||Discs|Discs|Discs|Discs|Discs|Discs|Discs|Discs|||||||
 RESOURCE.GEM.NOUN|Gem||Edelstein|Gemme|Gemma|Gema|Joia|de gema|Klejnot|Самоцвет|||||||
 RESOURCE.GEM.PLURAL|Gems||Edelsteine|Gemmes|Gemme|Gemas|Joias|Gemas|Klejnoty|Самоцветы|||||||
 RESOURCE.GEMS.UNREFINED.NOUN|Uncut gem||Rohedelstein|Gemme brute|Gemma grezza|Gema en bruto|Joia bruta|Gema bruta|Nieoszlifowany klejnot|Необработанный самоцвет|||||||
@@ -304,6 +307,7 @@ ROOMS.METALWORKS|metalworks||Platzhalter-Schlosserei|Ferronnerie provisoire|Fond
 ROOMS.SAWMILL|Sawmill||Sägewerk|Scierie|Segheria|Aserradero|Serraria|Madeireira|Tartak|Лесопилка|||||||
 ROOMS.STOCKPILE|Stockpile||Vorrat|Réserve|Deposito|Reservas|Armazém||Skład|Склад|||||||
 ROOMS.STOCKPILES|Stockpiles||Lager|Réserves|Magazzini|Reservas|Reservas|Estocagens|Skład|Склады|||||||
+ROOMS.THING_WORKSHOP|Thingworks||Thingworks|Thingworks|Thingworks|Thingworks|Thingworks|Thingworks|Thingworks|Thingworks|||||||
 
 SEASON.AUTUMN|Autumn||Herbst|Automne|Autunno|Otoño|Outono|Outono|Jesień|Осень|||||||
 SEASON.SPRING|Spring||Frühling|Printemps|Primavera|Primavera|Primavera|Primavera|Wiosna|Весна|||||||
@@ -327,6 +331,7 @@ STOCKPILE.ORES|Ores||Erzbrocken|Minerais|Minerali grezzi|Minerales|Minérios|Min
 STOCKPILE.PANTRY|Pantry||Vorratskammer|Cellier|Dispensa|Despensa|Despensa|Despensa|Spiżarnia|Кладовая|||||||
 STOCKPILE.RESOURCES|Resources||Materiallager|Ressources|Risorse|Recursos|Recursos|Recursos|Zasoby|Ресурсы|||||||
 STOCKPILE.STONES|Rough stone boulders||Steinbrocken|Rochers bruts|Blocchi di pietra grezza|Peñascos|Pedregulhos de pedra bruta|Pedregulhos de pedra bruta|Nieociosane głazy|Грубые валуны|||||||
+STOCKPILE.THINGS|Things||Things|Things|Things|Things|Things|Things|Things|Things||||||
 STOCKPILE.TOOLS|Tools||Werkzeuglager|Outils|Attrezzi|Herramientas|Ferramentas|Ferramentas|Narzędzia|Инструменты||||||
 
 STONE.BASALT.ADJECTIVE|Basalt||Basalt|en basalte|di basalto|De basalto|De basalto|de basalto|Bazaltowy|(базальт)|||||||

@@ -123,7 +123,24 @@
     "LIQUID_CONTAINER" : [ "6" ]
   },
   "i18nKey" : "PRODUCT.CAULDRON"
-}, {
+},  {
+  "itemTypeId" : 500,
+  "itemTypeName" : "Resource-Discs",
+  "itemGroup" : "RESOURCE",
+  "maxStackSize" : 50,
+  "maxHauledAtOnce" : 2,
+  "materialTypes" : [ "WOOD" ],
+  "primaryMaterialType" : "WOOD",
+  "holdPosition" : "ON_SHOULDER",
+  "impedesMovement" : false,
+  "blocksMovement" : false,
+  "equippedWhileWorkingOnJob" : true,
+  "hoursInInventoryUntilUnused" : 30.0,
+  "relatedCraftingTypeNames" : [ ],
+  "stockpileGroupName" : "Things",
+  "tags" : { },
+  "i18nKey" : "RESOURCE.DISCS"
+},  {
   "itemTypeId" : 117,
   "itemTypeName" : "Resource-Gem",
   "itemGroup" : "RESOURCE",

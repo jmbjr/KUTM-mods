@@ -10,7 +10,7 @@
   "autoConstructed" : false,
   "requirements" : {
     "WOOD" : [ {
-      "itemTypeName" : "Resource-Planks",
+      "itemTypeName" : "Resource-Discs",
       "quantity" : 4
     } ]
   },

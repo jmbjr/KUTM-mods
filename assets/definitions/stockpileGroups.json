@@ -22,4 +22,7 @@
 }, {
   "name" : "Gems",
   "stockpileGroupId" : 94
+}, {
+  "name" : "Things",
+  "stockpileGroupId" : 95
 } ]

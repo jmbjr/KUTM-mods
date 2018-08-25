@@ -100,7 +100,25 @@
     "itemTypeRequiredName": "Tool-Large-Hammer",
     "materialTypesToCopyOver": ["METAL", "WOOD"]
   },
-
+  {
+    "recipeName": "Cut discs",
+    "i18nKey": "CRAFT.LOGS_INTO_DISCS",
+    "craftingTypeName": "WOODCUTTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Logs",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Resource-Discs",
+        "quantity": 2
+      }
+    ],
+    "itemTypeRequiredName": "Tool-Saw",
+    "materialTypesToCopyOver": ["WOOD"]
+  },
   {
     "recipeName": "Craft barrel staves",
     "i18nKey": "CRAFT.BARREL_STAVES",

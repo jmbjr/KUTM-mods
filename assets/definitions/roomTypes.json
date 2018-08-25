@@ -80,6 +80,16 @@
     "furnitureNames": []
   },
   {
+    "roomName": "STOCKPILE_THINGS",
+    "i18nKey": "STOCKPILE.THINGS",
+    "colorCode": "#abcdef",
+    "iconName": "log",
+    "tags": {
+      "STOCKPILE": ["Things"]
+    },
+    "furnitureNames": []
+  },
+  {
     "roomName": "FARM_PLOT",
     "i18nKey": "ROOMS.FARM",
     "colorCode": "#47301f",

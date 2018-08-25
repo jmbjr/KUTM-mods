@@ -3240,6 +3240,159 @@
   "overrideRenderLayer" : null,
   "tags" : null
 }, {
+  "uniqueName" : "Resource-Discs-Single",
+  "type" : "ITEM_BASE_LAYER",
+  "itemTypeName" : "Resource-Discs",
+  "itemTypeNames" : null,
+  "minQuantity" : 1,
+  "maxQuantity" : 4,
+  "itemSize" : null,
+  "itemStyle" : null,
+  "itemPlacements" : [ "BEING_CARRIED" ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "Resource-Gem-Cut-Single.png",
+      "coloringLayer" : "GEM_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -10.0,
+        "y" : -4.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ {
+        "type" : "HUMANOID_RIGHT_HAND",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -6.0,
+          "y" : -6.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : 100
+      } ]
+    },
+    "DOWN_RIGHT" : {
+      "filename" : "Resource-Gem-Cut-Single.png",
+      "coloringLayer" : "GEM_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -16.0,
+        "y" : -4.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ {
+        "type" : "HUMANOID_RIGHT_HAND",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -6.0,
+          "y" : -6.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : 100
+      } ]
+    },
+    "DOWN_LEFT" : {
+      "filename" : "Resource-Gem-Cut-Single.png",
+      "coloringLayer" : "GEM_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : -3.0,
+        "y" : -4.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ {
+        "type" : "HUMANOID_RIGHT_HAND",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : 2.0,
+          "y" : -6.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : -100
+      } ]
+    },
+    "UP_RIGHT" : {
+      "filename" : "Resource-Gem-Cut-Single.png",
+      "coloringLayer" : "GEM_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 6.0,
+        "y" : -4.0,
+        "zero" : false,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ {
+        "type" : "HUMANOID_RIGHT_HAND",
+        "specificAssetName" : null,
+        "offsetPixels" : {
+          "x" : -6.0,
+          "y" : -6.0,
+          "zero" : false,
+          "unit" : false
+        },
+        "overrideRenderLayer" : 100
+      } ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+},  {
+  "uniqueName" : "Resource-Discs-Pile01",
+  "type" : "ITEM_BASE_LAYER",
+  "itemTypeName" : "Resource-Discs",
+  "itemTypeNames" : null,
+  "minQuantity" : 15,
+  "maxQuantity" : 32,
+  "itemSize" : null,
+  "itemStyle" : null,
+  "itemPlacements" : [ "ON_GROUND" ],
+  "spriteDescriptors" : {
+    "DOWN" : {
+      "filename" : "Resource-Gem-Cut-Pile04.png",
+      "coloringLayer" : "GEM_COLOR",
+      "isAnimated" : false,
+      "scale" : 1.0,
+      "offsetPixels" : {
+        "x" : 0.0,
+        "y" : 0.0,
+        "zero" : true,
+        "unit" : false
+      },
+      "flipX" : false,
+      "flipY" : false,
+      "childAssets" : [ ],
+      "attachmentPoints" : [ ],
+      "parentEntityAssets" : [ ]
+    }
+  },
+  "overrideRenderLayer" : null,
+  "tags" : null
+}, {
   "uniqueName" : "Resource-Gem-Single",
   "type" : "ITEM_BASE_LAYER",
   "itemTypeName" : "Resource-Gem",
